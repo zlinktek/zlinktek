@@ -1,0 +1,15 @@
+# main links
+main:
+  - title: "关于公司"
+    url: /about/
+
+
+# # documentation links
+# docs:
+#   - title: "产品介绍"
+#     children:
+#       - title: "数据记录仪"
+#         url: /posts/storage/
+
+#       - title: "UWB无线通信"
+#         url: /posts/uwb/
