@@ -5,6 +5,8 @@ layout: null
 toc: false
 ---
 
+IR100数据记录仪参考资料
+
 产品规格书：[https://gitee.com/zlinktek/zlinktek/releases/download/doc/IR100_datasheet.pdf](https://gitee.com/zlinktek/zlinktek/releases/download/doc/IR100_datasheet.pdf)
 
 产品用户手册：[https://gitee.com/zlinktek/zlinktek/releases/download/doc/IR100_user_manual.pdf](https://gitee.com/zlinktek/zlinktek/releases/download/doc/IR100_user_manual.pdf)
