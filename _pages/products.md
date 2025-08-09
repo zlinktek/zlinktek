@@ -1,6 +1,7 @@
 ---
 permalink: /products/
 title: "IR100数据记录仪"
+layout: null
 toc: false
 ---
 
