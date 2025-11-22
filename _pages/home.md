@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/background.jpg
   actions:
     - label: "了解更多"
-      url: ""
+      url: "/products/"
 excerpt: >
   科技推动社会进步<br />
 feature_row:
