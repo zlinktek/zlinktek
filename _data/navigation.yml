@@ -2,6 +2,8 @@
 main:
   - title: "产品中心"
     url: /products/
+  - title: "下载中心"
+    url: /downloads/
   - title: "关于我们"
     url: /about/
 
