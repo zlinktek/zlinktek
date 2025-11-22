@@ -1,8 +1,10 @@
 ---
+layout: collection
 permalink: /downloads/
-title: "下载中心"
-layout: null
-toc: false
+collection: products
+entries_layout: grid
+classes: wide
+title: 下载中心
 ---
 
 ### IR100数据记录仪参考资料
