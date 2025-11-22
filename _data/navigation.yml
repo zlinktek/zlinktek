@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "公司产品"
+  - title: "产品中心"
     url: /products/
   - title: "关于我们"
     url: /about/
