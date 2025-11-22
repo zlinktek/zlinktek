@@ -1,7 +1,7 @@
 ---
 layout: collection
 permalink: /downloads/
-collection: products
+collection: downloads
 entries_layout: grid
 classes: wide
 title: 下载中心
