@@ -10,4 +10,4 @@ toc: false
 
 当前，公司正处于快速发展阶段，多款在研产品即将于本年度正式推出，诚邀行业伙伴持续关注。
 
-联系方式：[zlinktek@outlook.com](zlinktek@outlook.com)
+联系方式：zlinktek@outlook.com
