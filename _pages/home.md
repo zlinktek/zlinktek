@@ -9,7 +9,7 @@ header:
 #    - label: "了解更多"
 #      url: "/products/"
 excerpt: >
-  科技推动社会进步<br />
+  因为专注，所以专业<br />
 feature_row:
   - image_path: /assets/images/space.jpg
     title: "航天通信设备"
