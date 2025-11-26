@@ -12,8 +12,8 @@ excerpt: >
   因为专注，所以专业<br />
 feature_row:
   - image_path: /assets/images/space.jpg
-    title: "航天通信设备"
-    excerpt: "我们致力于高可靠航天通信设备的研发及定制"
+    title: "高可靠通信设备"
+    excerpt: "我们致力于高可靠工业/航天通信设备的研发及定制"
     url: "/products/"
     btn_class: "btn--primary"
     btn_label: "了解更多"
@@ -25,7 +25,7 @@ feature_row:
     btn_label: "了解更多"
   - image_path: /assets/images/pcb.jpg
     title: "开发服务及支持"
-    excerpt: "我们提供一站式的嵌入式开发服务及支持"
+    excerpt: "我们提供定制化的嵌入式开发服务及支持"
     url: "/products/"
     btn_class: "btn--primary"
     btn_label: "了解更多"      
