@@ -7,6 +7,9 @@ hidden: true
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/background.jpg
+  actions:
+    - label: "了解产品"
+      url: "/products/"
 excerpt: "专注工业、航空、航天、航海等领域的数据记录仪研发，提供工业数据记录仪、加密数据记录仪、抗高过载记录仪及 RS422/RS485/RS232 高速数据采集等高可靠数据记录解决方案。"
 feature_row:
   - image_path: /assets/images/space.jpg
