@@ -2,14 +2,12 @@
 layout: splash
 permalink: /
 title: "工业及航天高可靠、抗高过载、加密数据记录仪解决方案 - 深圳智联电能科技"
-description: "深圳智联电能科技有限公司专注工业、航空、航天、航海等领域的数据记录仪研发，提供工业数据记录仪、加密数据记录仪、抗高过载记录仪及 RS422/RS485/RS232 高速数据采集等高可靠数据记录解决方案，支持嵌入式软硬件定制开发。"
+description: "专注工业、航空、航天、航海等领域的数据记录仪研发，提供工业数据记录仪、加密数据记录仪、抗高过载记录仪及 RS422/RS485/RS232 高速数据采集等高可靠数据记录解决方案。"
 hidden: true
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/background.jpg
-excerpt: >
-  专注工业与航天领域的高可靠数据记录仪与加密记录解决方案<br />
-  支持RS422/RS485/RS232高速采集，抗高过载、宽温、军工级加密
+excerpt: "专注工业、航空、航天、航海等领域的数据记录仪研发，提供工业数据记录仪、加密数据记录仪、抗高过载记录仪及 RS422/RS485/RS232 高速数据采集等高可靠数据记录解决方案。"
 feature_row:
   - image_path: /assets/images/space.jpg
     title: "高可靠通信与数据记录设备"
