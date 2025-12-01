@@ -12,7 +12,7 @@ header:
       url: "/products/"
 excerpt: "专注工业、航空、航天、航海等领域的数据记录仪研发，提供工业数据记录仪、加密数据记录仪、抗高过载记录仪及RS422/RS485/RS232/以太网高速数据采集等高可靠数据记录解决方案。"
 feature_row:
-  - image_path: /assets/images/space.jpg
+  - image_path: https://pic.zlinktek.com/img/2025-12-02-01-14-25.png
     title: "工业级数据记录仪"
     excerpt: "支持RS422/RS485/RS232/TTL/以太网多接口，适用于产线监控、工业总线数据记录及长期稳定运行场景。"
     url: "/products/"
