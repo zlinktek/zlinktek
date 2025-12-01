@@ -13,23 +13,23 @@ header:
 excerpt: "专注工业、航空、航天、航海等领域的数据记录仪研发，提供工业数据记录仪、加密数据记录仪、抗高过载记录仪及RS422/RS485/RS232/以太网高速数据采集等高可靠数据记录解决方案。"
 feature_row:
   - image_path: /assets/images/space.jpg
-    title: "高可靠通信与数据记录设备"
-    excerpt: "面向工业现场和航天测控，提供RS422/RS485/RS232高速通信及数据记录设备，适配复杂电磁环境和严苛工况。"
+    title: "工业级数据记录仪"
+    excerpt: "支持RS422/RS485/RS232/TTL/以太网多接口，适用于产线监控、工业总线数据记录及长期稳定运行场景。"
     url: "/products/"
     btn_class: "btn--primary"
     btn_label: "了解产品"
   - image_path: /assets/images/embedded_system.jpg
-    title: "智能嵌入式数据记录仪"
-    excerpt: "专注嵌入式数据记录仪软硬件开发，可定制采样频率、加密算法和接口协议，支持STM32等多平台。"
+    title: "高保密数据记录仪"
+    excerpt: "增强的数据加密与软硬件自毁功能，适用于无人机、航天、航海装备等高保密数据采集与防泄露场景。"
     url: "/products/"
     btn_class: "btn--primary"
     btn_label: "了解产品"
   - image_path: /assets/images/pcb.jpg
-    title: "软硬件定制开发及支持"
-    excerpt: "提供数据记录仪定制开发、接口协议适配、上位机软件开发以及长期技术支持服务。"
+    title: "抗高过载数据记录仪"
+    excerpt: "电气隔离、抗冲击、抗振动、高低温设计，通过标准环境试验验证，适用于航天飞行试验、弹载与无人机等极端环境。"
     url: "/products/"
     btn_class: "btn--primary"
-    btn_label: "了解产品"      
+    btn_label: "了解产品"
 ---
 
 {% include feature_row %}
