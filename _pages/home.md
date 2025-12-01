@@ -24,7 +24,7 @@ feature_row:
     url: "/products/"
     btn_class: "btn--primary"
     btn_label: "了解产品"
-  - image_path: /assets/images/pcb.jpg
+  - image_path: https://pic.zlinktek.com/img/2025-12-02-01-26-33.png
     title: "抗高过载数据记录仪"
     excerpt: "电气隔离、抗冲击、抗振动、高低温设计，通过标准环境试验验证，适用于航天飞行试验、弹载与无人机等极端环境。"
     url: "/products/"
