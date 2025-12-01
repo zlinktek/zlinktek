@@ -6,7 +6,7 @@ description: "专注工业、航空、航天、航海等领域的数据记录仪
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/background.jpg
+  overlay_image: https://pic.zlinktek.com/img/background.png
   actions:
     - label: "了解产品"
       url: "/products/"
