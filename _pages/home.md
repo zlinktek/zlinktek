@@ -18,7 +18,7 @@ feature_row:
     url: "/products/"
     btn_class: "btn--primary"
     btn_label: "了解产品"
-  - image_path: /assets/images/embedded_system.jpg
+  - image_path: https://pic.zlinktek.com/img/2025-12-02-01-20-17.png
     title: "高保密数据记录仪"
     excerpt: "增强的数据加密与软硬件自毁功能，适用于无人机、航天、航海装备等高保密数据采集与防泄露场景。"
     url: "/products/"
