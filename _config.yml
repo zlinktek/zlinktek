@@ -207,6 +207,9 @@ collections:
   downloads:
     output: true
     permalink: /downloads/:name/
+  cases:
+    output: true
+    permalink: /cases/:name/
 
 
 # Defaults
