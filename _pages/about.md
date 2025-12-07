@@ -2,6 +2,7 @@
 permalink: /about/
 title: "公司简介"
 toc: false
+layout: collection
 ---
 
 > 因为专注，所以专业
