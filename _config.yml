@@ -203,13 +203,13 @@ collections:
     permalink: /:collection/:path/
   products:
     output: true
-    permalink: /products/:name/
+    permalink: /:collection/:path/
   downloads:
     output: true
-    permalink: /downloads/:name/
+    permalink: /:collection/:path/
   cases:
     output: true
-    permalink: /cases/:name/
+    permalink: /:collection/:path/
 
 
 # Defaults
