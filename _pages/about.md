@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "公司简介"
+title: "联系我们"
 toc: false
 layout: collection
 classes: wide
