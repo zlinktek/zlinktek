@@ -3,14 +3,116 @@ permalink: /about/
 title: "公司简介"
 toc: false
 layout: collection
+classes: wide
+sidebar: false
 ---
 
-> 因为专注，所以专业
 
-## 公司概况
+<style>
+  .about-contact-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 2rem 0 2.5rem;
+    padding: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 18px;
+    background: linear-gradient(135deg, #f7fbff 0%, #ffffff 100%);
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  }
 
-**深圳智联电能科技有限公司**专注于工业及航天领域的智能通信与数据记录设备研发。  
-团队核心成员来自国际知名企业及国内知名航天院所，并与多所高校保持长期技术合作，拥有超过 10 年的工程实践与行业经验。
+  .about-contact-card__content {
+    flex: 1 1 360px;
+    min-width: 0;
+  }
+
+  .about-contact-card__eyebrow {
+    margin: 0 0 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #0f766e;
+  }
+
+  .about-contact-card__title {
+    margin: 0 0 0.75rem;
+    font-size: 1.75rem;
+    line-height: 1.3;
+  }
+
+  .about-contact-card__desc {
+    margin: 0 0 1rem;
+    color: #475569;
+  }
+
+  .about-contact-card__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .about-contact-card__list li {
+    margin-bottom: 0.6rem;
+    line-height: 1.7;
+  }
+
+  .about-contact-card__media {
+    flex: 0 0 240px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .about-contact-card__media img {
+    display: block;
+    width: 100%;
+    max-width: 240px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin: 0 auto 0.75rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
+  }
+
+  .about-contact-card__media figcaption {
+    font-size: 0.92rem;
+    color: #64748b;
+  }
+
+  @media (max-width: 768px) {
+    .about-contact-card {
+      flex-direction: column-reverse;
+      gap: 1.25rem;
+      padding: 1.25rem;
+    }
+
+    .about-contact-card__title {
+      font-size: 1.4rem;
+    }
+
+    .about-contact-card__media,
+    .about-contact-card__media img {
+      max-width: 220px;
+    }
+  }
+</style>
+
+<div class="about-contact-card">
+  <div class="about-contact-card__content">
+    <p class="about-contact-card__eyebrow">联系我们</p>
+    <h2 class="about-contact-card__title">欢迎沟通产品选型、项目合作与技术交流</h2>
+    <p class="about-contact-card__desc">如需了解产品参数、应用场景、定制能力或项目支持，可通过微信、邮箱或官网与我们取得联系。</p>
+    <ul class="about-contact-card__list">
+      <li><strong>邮箱：</strong><a href="mailto:zlinktek@outlook.com">zlinktek@outlook.com</a></li>
+    </ul>
+  </div>
+  <figure class="about-contact-card__media">
+    <img src="https://pic.zlinktek.com/img/wechat_zlinktek.jpg" alt="深圳智联电能科技有限公司微信联系方式二维码" loading="lazy">
+    <figcaption>微信扫码添加联系方式</figcaption>
+  </figure>
+</div>
+
+**深圳智联电能科技有限公司**专注于工业及航天领域的智能通信与数据记录设备研发。团队核心成员来自国际知名企业及国内知名航天院所，并与多所高校保持长期技术合作，拥有超过 10 年的工程实践与行业经验。
 
 我们聚焦于在严苛环境下“**稳定采集、可靠存储、安全传输**”这一核心能力，为用户提供从硬件到软件的一体化数据记录解决方案。
 
@@ -61,10 +163,6 @@ layout: collection
 - 现有系统升级改造与国产替代
 - 特定场景定制化数据记录与安全方案
 
-**联系方式**
-
-- 微信（技术/商务）：`13032953404`
-- 邮箱：`zlinktek@outlook.com`
-- 官网：<https://zlinktek.com>
 
 如需针对具体项目的技术交流或方案评估，欢迎通过微信或邮件直接与我们联系。
+
