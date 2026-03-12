@@ -100,7 +100,7 @@ sidebar: false
 <div class="about-contact-card">
   <div class="about-contact-card__content">
     <h2 class="about-contact-card__title">欢迎沟通产品选型、项目合作与技术交流</h2>
-    <p class="about-contact-card__desc">如需了解产品参数、应用场景、定制能力或项目支持，可通过微信、邮箱或官网与我们取得联系。</p>
+    <p class="about-contact-card__desc">如需了解产品参数、应用场景、定制能力或项目支持，可通过微信或邮箱与我们取得联系。</p>
     <ul class="about-contact-card__list">
       <li><strong>微信：</strong>13032953404(张工), 18176342247(甘工)</li>
       <li><strong>邮箱：</strong><a href="mailto:zlinktek@outlook.com">zlinktek@outlook.com</a></li>
