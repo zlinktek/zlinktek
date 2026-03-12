@@ -99,7 +99,6 @@ sidebar: false
 
 <div class="about-contact-card">
   <div class="about-contact-card__content">
-    <p class="about-contact-card__eyebrow">联系我们</p>
     <h2 class="about-contact-card__title">欢迎沟通产品选型、项目合作与技术交流</h2>
     <p class="about-contact-card__desc">如需了解产品参数、应用场景、定制能力或项目支持，可通过微信、邮箱或官网与我们取得联系。</p>
     <ul class="about-contact-card__list">
