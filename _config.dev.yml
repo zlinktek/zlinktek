@@ -1,7 +1,7 @@
 # Develop override settings
 
 theme: minimal-mistakes-jekyll
-remote_theme: null
+remote_theme: false
 url: http://localhost:4000
 
 analytics:
