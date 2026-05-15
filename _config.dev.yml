@@ -1,7 +1,7 @@
 # Develop override settings
 
+remote_theme:
 theme: minimal-mistakes-jekyll
-remote_theme: false
 url: http://localhost:4000
 
 analytics:
@@ -13,3 +13,9 @@ comments:
 
 sass:
   style: expanded
+
+plugins:
+  - jekyll-include-cache
+
+whitelist:
+  - jekyll-include-cache
