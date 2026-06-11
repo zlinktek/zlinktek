@@ -18,6 +18,7 @@ BlackBoxApp 是深圳智联电能科技有限公司为工业数据记录仪配�
 
 <p>
   <a class="btn btn--primary" href="https://gitee.com/zlinktek/zlinktek/releases/download/Software/%E6%95%B0%E6%8D%AE%E8%AE%B0%E5%BD%95%E4%BB%AA%E5%AE%A2%E6%88%B7%E7%AB%AF-1.2.0-windows-x64.zip">免费下载 Windows 客户端</a>
+  <a class="btn btn--primary" href="https://gitee.com/zlinktek/zlinktek/releases/download/Software/BlackBoxUserUpgradeApp0.1.0.zip">记录仪固机升级软件</a>
   <a class="btn btn--info" href="https://zlinktek.com/products/">查看适配产品</a>
 </p>
 
