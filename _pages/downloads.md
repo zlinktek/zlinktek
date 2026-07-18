@@ -1,6 +1,8 @@
 ---
 layout: archive
 permalink: /downloads/
+lang: zh-CN
+alternate_url: /en/downloads/
 collection: downloads
 entries_layout: list
 classes: wide
@@ -17,6 +19,8 @@ sort_order: forward
 {% endif %}
 <div class="entries-{{ entries_layout }}">
 	{%- for post in entries -%}
+		{% unless post.lang == "en" %}
 		{% include archive-single.html type=entries_layout %}
+		{% endunless %}
 	{%- endfor -%}
 </div>

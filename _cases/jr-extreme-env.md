@@ -2,6 +2,8 @@
 title: "抗高过载记录仪应用案例：极端环境下高可靠数据存储"
 excerpt: 在高过载、高振动、高低温及强电磁干扰等极端条件下，实现关键飞行数据的稳定记录与任务归零分析支持
 layout: single
+lang: zh-CN
+alternate_url: /en/cases/extreme-environments/
 classes: wide
 order: 3
 header:

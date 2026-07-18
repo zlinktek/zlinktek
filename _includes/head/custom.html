@@ -19,3 +19,15 @@
 
 <!-- 浏览器地址栏主题色，可按网站主色改 -->
 <meta name="theme-color" content="#ffffff">
+
+{% if page.alternate_url %}
+  {% if page.lang == "en" %}
+<link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">
+<link rel="alternate" hreflang="zh-CN" href="{{ page.alternate_url | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ page.alternate_url | absolute_url }}">
+  {% else %}
+<link rel="alternate" hreflang="zh-CN" href="{{ page.url | absolute_url }}">
+<link rel="alternate" hreflang="en" href="{{ page.alternate_url | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">
+  {% endif %}
+{% endif %}

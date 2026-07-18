@@ -2,6 +2,8 @@
 title: "Modbus 数据记录仪应用案例：PLC 运行数据长期留痕与故障追溯"
 excerpt: 面向工业设备现场，通过 Modbus TCP 周期采集 PLC 关键寄存器数据，并以 CSV 形式长期保存到 TF 卡；双网口款还可支持灵活网络拓扑，便于集中监控和现场串接部署
 layout: single
+lang: zh-CN
+alternate_url: /en/cases/modbus-data-logging/
 classes: wide
 order: 4
 header:

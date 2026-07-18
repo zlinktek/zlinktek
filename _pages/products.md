@@ -2,6 +2,8 @@
 title: 产品中心
 layout: single
 permalink: /products/
+lang: zh-CN
+alternate_url: /en/products/
 classes: wide
 sidebar: false
 toc: false

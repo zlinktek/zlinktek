@@ -1,5 +1,7 @@
 ---
 permalink: /about/
+lang: zh-CN
+alternate_url: /en/about/
 title: "联系我们"
 toc: false
 layout: collection
@@ -165,4 +167,3 @@ sidebar: false
 
 
 如需针对具体项目的技术交流或方案评估，欢迎通过微信或邮件直接与我们联系。
-

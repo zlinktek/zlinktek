@@ -1,0 +1,42 @@
+{% capture logo_path %}{{ site.logo }}{% endcapture %}
+{% assign is_english = false %}
+{% if page.lang == "en" %}{% assign is_english = true %}{% endif %}
+{% if is_english %}
+  {% assign home_url = "/en/" %}
+  {% assign navigation = site.data["navigation-en"].main %}
+  {% assign language_url = page.alternate_url | default: "/" %}
+  {% assign display_title = "ZLinkTek" %}
+{% else %}
+  {% assign home_url = "/" %}
+  {% assign navigation = site.data.navigation.main %}
+  {% assign language_url = page.alternate_url | default: "/en/" %}
+  {% assign display_title = site.masthead_title | default: site.title %}
+{% endif %}
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        {% unless logo_path == empty %}
+          <a class="site-logo" href="{{ home_url | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ display_title }}"></a>
+        {% endunless %}
+        <a class="site-title" href="{{ home_url | relative_url }}">
+          {{ display_title }}
+          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
+        </a>
+        <ul class="visible-links">
+          {%- for link in navigation -%}
+            <li class="masthead__menu-item">
+              <a href="{% if link.language_switch %}{{ language_url | relative_url }}{% else %}{{ link.url | relative_url }}{% endif %}"{% if link.language_switch %} lang="{% if is_english %}zh-CN{% else %}en{% endif %}" hreflang="{% if is_english %}zh-CN{% else %}en{% endif %}"{% endif %}>{{ link.title }}</a>
+            </li>
+          {%- endfor -%}
+        </ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+main:
+  - title: "Products"
+    url: /en/products/
+  - title: "Applications"
+    url: /en/cases/
+  - title: "Downloads"
+    url: /en/downloads/
+  - title: "About"
+    url: /en/about/
+  - title: "中文"
+    language_switch: true

@@ -2,6 +2,8 @@
 title: "工业记录仪应用案例：故障快速定位与三个月连续不丢包存储"
 excerpt: 利用IR系列工业数据记录仪，实现复杂传感器系统故障快速定位，并完成三个月连续不丢包的大容量数据记录
 layout: single
+lang: zh-CN
+alternate_url: /en/cases/industrial-data-recording/
 classes: wide
 order: 1
 header:

@@ -4,7 +4,7 @@ Set-Location -LiteralPath $PSScriptRoot
 $url = "http://127.0.0.1:4000/"
 $config = "_config.yml,_config.dev.yml"
 
-Write-Host "ZLINKTEK local preview" -ForegroundColor Cyan
+Write-Host "ZLinkTek local preview" -ForegroundColor Cyan
 Write-Host "Site directory: $PSScriptRoot"
 Write-Host "Preview URL: $url"
 Write-Host ""

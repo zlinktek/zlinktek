@@ -1,6 +1,8 @@
 ---
 layout: splash
 permalink: /
+lang: zh-CN
+alternate_url: /en/
 title: "工业及航天高可靠抗高过载加密数据记录仪解决方案"
 description: "专注工业、航空、航天、航海等领域的数据记录仪研发，提供工业数据记录仪、加密数据记录仪、抗高过载记录仪及RS422/RS485/RS232/以太网高速数据采集等高可靠数据记录解决方案。"
 hidden: true
