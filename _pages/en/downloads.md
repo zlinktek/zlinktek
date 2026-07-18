@@ -1,18 +1,18 @@
 ---
 title: Downloads
-description: Access product documents, manuals, drawings, firmware, and software resources for ZLinkTek data recorders.
+description: Download the unified data recorder client and reference documents for IR100, IR200, and JR100 data recorders.
 layout: single
 permalink: /en/downloads/
 lang: en
 alternate_url: /downloads/
 classes: wide
 toc: false
+sidebar: false
 ---
 
-## Product Resources
-
-- [IR100 Series Resources](/en/downloads/ir100/)
-- [IR200 Series Resources](/en/downloads/ir200/)
-- [JR100 Series Resources](/en/downloads/jr100/)
-
-Some project documents are configuration-specific. Contact [zlinktek@outlook.com](mailto:zlinktek@outlook.com) if you need a datasheet, manual, drawing, firmware package, test report, or document that is not listed.
+| Category | Contents | Access |
+| --- | --- | --- |
+| Unified Data Recorder Client | Device status, data download, configuration, time synchronization, and firmware upgrade | [View and Download](/en/downloads/client/) |
+| IR100 Data Recorder Resources | Datasheet, user manual, mechanical drawings, and utilities | [View Resources](/en/downloads/ir100/) |
+| IR200 Data Recorder Resources | Datasheets and user manuals for IR200M, IR200D, and IR200I | [View Resources](/en/downloads/ir200/) |
+| JR100 Data Recorder Resources | Datasheet, user manual, and project-specific documents | [View Resources](/en/downloads/jr100/) |

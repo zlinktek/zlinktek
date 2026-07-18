@@ -1,7 +1,10 @@
 ---
-title: BlackBoxApp 数据记录仪客户端
-excerpt: 面向智联电能数据记录仪的 Windows 图形界面和命令行客户端，支持设备状态查看、数据下载、配置维护、时间同步和网络日志调试
+title: 数据记录仪统一客户端
+excerpt: ZLinkTek 数据记录仪统一客户端，提供 GUI 图形界面版和 CMD 命令行版，支持数据下载、配置维护与自动化集成
 layout: single
+lang: zh-CN
+alternate_url: /en/downloads/client/
+permalink: /downloads/client/
 classes: wide
 order: 0
 # header:
@@ -12,13 +15,13 @@ order: 0
 <img width="60%" alt="BlackBoxApp 数据记录仪客户端读取数据示意" src="" />
 </p> -->
 
-BlackBoxApp 是深圳智联电能科技有限公司为工业数据记录仪配套提供的上位机客户端，用于在 Windows 电脑上连接数据记录仪，完成设备状态查询、文件列表读取、当前数据下载、历史数据下载、配置维护和现场调试等工作。
+ZLinkTek 数据记录仪统一客户端用于在 Windows 电脑上连接数据记录仪，提供 GUI 图形界面版和 CMD 命令行版，可完成设备状态查询、文件列表读取、当前数据下载、历史数据下载、配置维护和现场调试等工作。
 
-购买智联电能数据记录仪的客户可免费使用 BlackBoxApp，不额外收取软件授权费用。
+购买 ZLinkTek 数据记录仪的客户可免费使用，不额外收取软件授权费用。
 
 <p>
-  <a class="btn btn--primary" href="https://gitee.com/zlinktek/zlinktek/releases/download/Software/%E6%95%B0%E6%8D%AE%E8%AE%B0%E5%BD%95%E4%BB%AA%E5%AE%A2%E6%88%B7%E7%AB%AF-1.2.0-windows-x64.zip">免费下载 Windows 客户端</a>
-  <a class="btn btn--primary" href="https://gitee.com/zlinktek/zlinktek/releases/download/Software/BlackBoxUserUpgradeApp0.1.1.zip">记录仪固机升级软件</a>
+  <a class="btn btn--primary" href="https://gitee.com/zlinktek/blackbox/releases/download/BlackBoxGuiClient-Latest/BlackBoxGuiClient.exe">下载 GUI 图形界面版</a>
+  <a class="btn btn--info" href="https://gitee.com/zlinktek/blackbox/releases/download/BlackBoxCmdClient-Latest/BlackBoxCmdClient.zip">下载 CMD 命令行版</a>
   <a class="btn btn--info" href="https://zlinktek.com/products/">查看适配产品</a>
 </p>
 
@@ -49,7 +52,7 @@ BlackBoxApp 适合已经购买或正在评估智联电能数据记录仪的工�
 
 ## 图形界面与命令行双模式
 
-BlackBoxApp 同时提供图形界面客户端和命令行客户端。
+统一客户端同时提供 GUI 图形界面版和 CMD 命令行版。
 
 图形界面客户端适合现场工程师直接操作，常用功能集中在一个窗口中，不需要记忆命令参数。连接设备后，可以刷新状态、查看文件、下载数据、编辑配置、同步时间并查看日志。
 
@@ -81,10 +84,10 @@ BlackBoxApp 同时提供图形界面客户端和命令行客户端。
 
 | 项目 | 说明 |
 | --- | --- |
-| 软件名称 | BlackBoxApp 数据记录仪客户端 |
-| 当前版本 | v1.2.0 |
+| GUI 版本 | BlackBoxGuiClient.exe |
+| CMD 版本 | BlackBoxCmdClient.zip |
+| 当前版本 | Latest（下载地址始终指向最新版） |
 | 支持系统 | Windows |
-| 下载文件 | 数据记录仪客户端-1.2.0-windows-x64.zip |
 | 默认设备 IP | 192.168.0.10 |
 | 控制与状态通道 | TFTP/UDP 69 |
 | 大文件传输通道 | TCP 5004 |
@@ -95,18 +98,19 @@ BlackBoxApp 面向智联电能数据记录仪系列产品提供配套支持。�
 
 - [IR100 工业数据记录仪](https://zlinktek.com/products/ir100/)
 - [IR200 工业级隔离数据记录仪](https://zlinktek.com/products/ir200/)
-- [IR200C CANFD 数据记录仪](https://zlinktek.com/products/ir200c/)
 - 其他定制型数据记录仪
 
 ## 获取方式
 
-BlackBoxApp 可免费提供给购买智联电能数据记录仪的客户使用。当前 Windows x64 版本可直接下载：
+数据记录仪统一客户端可免费提供给购买 ZLinkTek 数据记录仪的客户使用，Windows 版本可直接下载：
 
-[免费下载 BlackBoxApp 数据记录仪客户端 v1.2.0](https://gitee.com/zlinktek/zlinktek/releases/download/Software/%E6%95%B0%E6%8D%AE%E8%AE%B0%E5%BD%95%E4%BB%AA%E5%AE%A2%E6%88%B7%E7%AB%AF-1.2.0-windows-x64.zip)
+[免费下载最新版 BlackBoxGuiClient](https://gitee.com/zlinktek/blackbox/releases/download/BlackBoxGuiClient-Latest/BlackBoxGuiClient.exe)
+
+[免费下载最新版 BlackBoxCmdClient](https://gitee.com/zlinktek/blackbox/releases/download/BlackBoxCmdClient-Latest/BlackBoxCmdClient.zip)
 
 - 客户购买数据记录仪后可免费使用
 - 支持远程协助完成首次连接和数据读取
-- 如需命令行批量导出、自动化测试接入或定制功能，可联系技术支持确认方案
+- CMD 版本适合命令行批量导出、自动化测试接入和脚本集成
 
 如需获取用户手册、命令行接口说明或与设备固件匹配的历史版本，请通过[联系方式](https://zlinktek.com/about/)联系获取。
 
