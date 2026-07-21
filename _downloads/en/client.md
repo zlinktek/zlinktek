@@ -22,4 +22,16 @@ The unified Windows client connects to supported ZLinkTek data recorders for dev
 
 [Download the firmware upgrade utility](https://gitee.com/zlinktek/zlinktek/releases/download/Software/BlackBoxUserUpgradeApp0.1.1.zip){: .btn .btn--info }
 
+## Video Tutorial and User Manual
+
+The following tutorial and manual are currently available in Chinese.
+
+<video controls preload="metadata" style="display: block; width: 100%; max-width: 960px; margin: 1rem auto;" aria-label="Unified data recorder GUI client video tutorial in Chinese">
+  <source src="https://gitee.com/zlinktek/blackbox/releases/download/BlackBoxGuiClient-Video-gui-client-Latest/BlackBoxGuiClient-gui-client-ZH.mp4" type="video/mp4">
+  Your browser does not support embedded video. Use the link below to open it.
+</video>
+
+- [Open or download the GUI client video tutorial, Chinese (MP4)](https://gitee.com/zlinktek/blackbox/releases/download/BlackBoxGuiClient-Video-gui-client-Latest/BlackBoxGuiClient-gui-client-ZH.mp4)
+- [Download the GUI client user manual, Chinese (DOCX)](https://gitee.com/zlinktek/blackbox/releases/download/BlackBoxGuiClient-Manual-Latest/BlackBoxGuiClient-UserManual-ZH.docx)
+
 Contact [zlinktek@outlook.com](mailto:zlinktek@outlook.com) for a matching manual or previous software version.

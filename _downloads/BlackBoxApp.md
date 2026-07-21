@@ -25,6 +25,16 @@ ZLinkTek 数据记录仪统一客户端用于在 Windows 电脑上连接数据�
   <a class="btn btn--info" href="https://zlinktek.com/products/">查看适配产品</a>
 </p>
 
+## 视频教程与使用手册
+
+<video controls preload="metadata" style="display: block; width: 100%; max-width: 960px; margin: 1rem auto;" aria-label="数据记录仪统一客户端使用视频教程">
+  <source src="https://gitee.com/zlinktek/blackbox/releases/download/BlackBoxGuiClient-Video-gui-client-Latest/BlackBoxGuiClient-gui-client-ZH.mp4" type="video/mp4">
+  当前浏览器不支持在线播放，请使用下方链接打开视频。
+</video>
+
+- [打开或下载 GUI 客户端使用视频教程（MP4）](https://gitee.com/zlinktek/blackbox/releases/download/BlackBoxGuiClient-Video-gui-client-Latest/BlackBoxGuiClient-gui-client-ZH.mp4)
+- [下载 GUI 客户端使用手册（DOCX）](https://gitee.com/zlinktek/blackbox/releases/download/BlackBoxGuiClient-Manual-Latest/BlackBoxGuiClient-UserManual-ZH.docx)
+
 ## 适用对象
 
 BlackBoxApp 适合已经购买或正在评估智联电能数据记录仪的工程师、测试人员和现场运维人员使用，尤其适合以下场景：
