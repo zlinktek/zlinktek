@@ -1,8 +1,25 @@
 $ErrorActionPreference = "Stop"
 
 Set-Location -LiteralPath $PSScriptRoot
+
+# Use the project-local Ruby environment when it is available.
+$localRuby = Join-Path $PSScriptRoot ".tools\ruby"
+if (Test-Path (Join-Path $localRuby "bin\ruby.exe")) {
+    $env:Path = "$(Join-Path $localRuby 'bin');$env:Path"
+    $env:GEM_HOME = Join-Path $PSScriptRoot ".tools\gems"
+    $env:GEM_PATH = "$env:GEM_HOME;$(Join-Path $localRuby 'lib\ruby\gems\3.3.0')"
+    $env:GEM_SPEC_CACHE = Join-Path $PSScriptRoot ".tools\gem-cache"
+    $env:BUNDLE_USER_HOME = Join-Path $PSScriptRoot ".tools\bundler"
+    $env:XDG_CACHE_HOME = Join-Path $PSScriptRoot ".tools\cache"
+}
 $url = "http://127.0.0.1:4000/"
 $config = "_config.yml,_config.dev.yml"
+
+# Refresh generated product pages before starting or reusing the preview.
+python scripts/generate-products.py all
+if ($LASTEXITCODE -ne 0) {
+    throw "Product generation failed. Python 3 is required; review the error above."
+}
 
 Write-Host "ZLinkTek local preview" -ForegroundColor Cyan
 Write-Host "Site directory: $PSScriptRoot"

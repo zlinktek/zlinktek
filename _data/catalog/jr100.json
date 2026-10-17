@@ -1,0 +1,22 @@
+{
+  "id": "jr100",
+  "models": {
+    "main": {
+      "name": "JR100",
+      "status": "released",
+      "interfaces": "以太网（10/100M）、RS-422/RS-485",
+      "isolation": "2kV 电气隔离",
+      "protection": "溃缩吸能结构+ 多级缓冲灌封工艺"
+    }
+  },
+  "images": {
+    "hero": {
+      "alt": "JR100抗高过载数据记录仪外观",
+      "src": "https://pic.zlinktek.com/img/2025-11-29-13-44-16.png"
+    }
+  },
+  "resources": {
+    "downloads": "/downloads/jr100/",
+    "case": "/cases/jr-extreme-env/"
+  }
+}

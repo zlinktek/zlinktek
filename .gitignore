@@ -7,3 +7,18 @@ _site/
 *.log
 local-*.txt
 theme-gem-*.txt
+__pycache__/
+*.pyc
+
+# Product pages and previews are rebuilt from content + catalog + templates.
+/_products/ir200.md
+/_products/ir100.md
+/_products/jr100.md
+/_products/en/ir100.md
+/_products/en/ir200.md
+/_products/en/jr100.md
+/_includes/generated/
+/exports/
+/.tools/
+/.bundle/
+/vendor/

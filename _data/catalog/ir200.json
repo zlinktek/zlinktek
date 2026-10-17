@@ -1,0 +1,232 @@
+{
+  "id": "ir200",
+  "models": {
+    "m": {
+      "name": "IR200-M",
+      "status": "released",
+      "positioning": "多串口/Modbus CSV 入门款",
+      "interfaces": "4 路用户可配置 RS422/RS485，1 路以太网",
+      "max_speed": "RS422/485 最高 10Mbps",
+      "ethernet": "1 路 10/100M，UDP/TCP，Modbus 按项目配置",
+      "storage": "TF 卡透明存储，最高 512GB，支持读卡器或以太网导出",
+      "power": "DC 5~48V",
+      "consumption": "正常记录约 0.8W，低功耗模式按配置确认",
+      "temperature": "-40℃~+85℃",
+      "protection": "工业级宽温、低功耗设计，具体防护等级按订单配置确认",
+      "selection_positioning": "入门高性价比款",
+      "scenarios": "多串口工业采集、PLC/控制器数据留痕、Modbus TCP/CSV 项目",
+      "summary": "{{ models.m.interfaces }}；{{ models.m.max_speed }}；{{ models.m.ethernet }}；{{ models.m.storage }}；{{ models.m.protection }}"
+    },
+    "d": {
+      "name": "IR200-D",
+      "status": "released",
+      "positioning": "双网口串接与集中维护进阶款",
+      "interfaces": "4 路用户可配置 RS422/RS485，2 路以太网",
+      "max_speed": "RS422/485 最高 1Mbps",
+      "ethernet": "2 路 10/100M，内置交换机，UDP/TCP，Modbus 按项目配置",
+      "storage": "TF 卡透明存储，最高 512GB，支持读卡器或以太网导出",
+      "power": "DC 5~48V",
+      "consumption": "正常记录约 0.8W，低功耗模式按配置确认",
+      "temperature": "-40℃~+85℃",
+      "protection": "工业级宽温、低功耗设计，具体防护等级按订单配置确认",
+      "selection_positioning": "进阶双网口款",
+      "scenarios": "PLC-PC 串接、双网口级联、多设备集中监控、产线批量取数",
+      "summary": "{{ models.d.interfaces }}；{{ models.d.max_speed }}；{{ models.d.ethernet }}；{{ models.d.storage }}；{{ models.d.protection }}"
+    },
+    "h": {
+      "name": "IR200-H",
+      "status": "released",
+      "positioning": "高可靠隔离旗舰款",
+      "interfaces": "2 路 RS422/RS485，1 路以太网，1 路 TTL",
+      "max_speed": "RS422/485 最高 10Mbps",
+      "ethernet": "1 路 10/100M，TCP/UDP/Modbus",
+      "storage": "默认 64GB，支持定制至 512GB 以上，透明存储和以太网导出",
+      "power": "DC 5~36V；选型表按 DC 9~36V 标注",
+      "consumption": "正常记录约 0.8W @12VDC，低功耗模式按配置确认",
+      "temperature": "-40℃~+85℃；含电池 -30℃~+85℃",
+      "protection": "全接口 2.5kV 隔离，8 阶 EMI 滤波，TVS 防护，接触放电 8kV，抗过载冲击 ≥100g",
+      "selection_positioning": "高可靠抗过载款",
+      "scenarios": "无人机、航空物流、车辆、科研试验和高可靠移动平台",
+      "summary": "{{ models.h.interfaces }}；{{ models.h.max_speed }}；{{ models.h.ethernet }}；{{ models.h.storage }}；{{ models.h.protection }}"
+    },
+    "c": {
+      "name": "IR200-C",
+      "status": "development",
+      "notice": "CAN / CANFD 研发中，未正式发布，不作为当前标准下单型号。",
+      "selection_positioning": "研发中",
+      "scenarios": "CAN / CANFD 总线记录、车辆电控、BMS、机器人、测试台架",
+      "summary": "未正式发布，CANFD 项目请先沟通研发进度、接口参数和交付形式"
+    }
+  },
+  "images": {
+    "hero": {
+      "alt": "IR200系列数据记录仪合照",
+      "src": "https://img.alicdn.com/imgextra/i4/2216870724589/O1CN01H0IF4r1jlohFyJLiu_!!2216870724589.png"
+    },
+    "product-1": {
+      "alt": "IR200M多串口数据记录仪侧面",
+      "src": "https://img.alicdn.com/imgextra/i1/2216870724589/O1CN01uarzXc1jlohGKic3h_!!2216870724589.png"
+    },
+    "product-2": {
+      "alt": "IR200-M 外形尺寸图",
+      "src": "https://img.alicdn.com/imgextra/i2/2216870724589/O1CN019jOmVY1jlohBqhIRe_!!2216870724589.png"
+    },
+    "product-3": {
+      "alt": "IR200D双网口数据记录仪正面",
+      "src": "https://img.alicdn.com/imgextra/i3/2216870724589/O1CN017bWdiG1jlohGFpPcb_!!2216870724589.png"
+    },
+    "product-4": {
+      "alt": "IR200D双网口数据记录仪接口特写",
+      "src": "https://img.alicdn.com/imgextra/i2/2216870724589/O1CN01u8T9cG1jlohGFA78x_!!2216870724589.png"
+    },
+    "product-5": {
+      "alt": "IR200-D 外形尺寸图",
+      "src": "https://img.alicdn.com/imgextra/i4/2216870724589/O1CN016M0uxD1jlohGJ1uiM_!!2216870724589.png"
+    },
+    "product-6": {
+      "alt": "IR200隔离增强款正面",
+      "src": "https://img.alicdn.com/imgextra/i4/2216870724589/O1CN01KKvU1c1jlohGLv88S_!!2216870724589.png"
+    },
+    "product-7": {
+      "alt": "IR200隔离增强款接口特写",
+      "src": "https://img.alicdn.com/imgextra/i3/2216870724589/O1CN01A8FFcS1jlohGKLB69_!!2216870724589.png"
+    },
+    "product-8": {
+      "alt": "IR200-H 外形尺寸图",
+      "src": "https://img.alicdn.com/imgextra/i3/2216870724589/O1CN01LklbeA1jlohG2yyAr_!!2216870724589.png"
+    }
+  },
+  "tables": {
+    "selection": {
+      "headers": [
+        "型号",
+        "定位",
+        "适合场景",
+        "关键差异"
+      ],
+      "rows": [
+        [
+          "{{ models.m.name }}",
+          "{{ models.m.selection_positioning }}",
+          "{{ models.m.scenarios }}",
+          "{{ models.m.summary }}"
+        ],
+        [
+          "{{ models.d.name }}",
+          "{{ models.d.selection_positioning }}",
+          "{{ models.d.scenarios }}",
+          "{{ models.d.summary }}"
+        ],
+        [
+          "{{ models.h.name }}",
+          "{{ models.h.selection_positioning }}",
+          "{{ models.h.scenarios }}",
+          "{{ models.h.summary }}"
+        ],
+        [
+          "{{ models.c.name }}",
+          "{{ models.c.selection_positioning }}",
+          "{{ models.c.scenarios }}",
+          "{{ models.c.summary }}"
+        ]
+      ]
+    },
+    "connections": {
+      "headers": [
+        "型号",
+        "典型接法",
+        "记录结果"
+      ],
+      "rows": [
+        [
+          "IR200-M",
+          "作为 Modbus TCP Master 连接 PLC IP、端口和 Unit ID，或接入 4 路 RS422/RS485 设备",
+          "透明保存原始数据，或按日期生成带时间戳 CSV，字段可配置为温度、压力、电流、报警字等工程量"
+        ],
+        [
+          "IR200-D",
+          "通过双网口串接在 PLC 与 PC 之间，或多台记录仪接入同一维护网络",
+          "保留原有调试链路，同时支持集中状态查看、时间同步、日志下载和配置维护"
+        ],
+        [
+          "IR200-H",
+          "接入 RS422/RS485、以太网或 TTL 链路，部署在无人机、航空物流、车辆、科研试验或高可靠移动平台",
+          "透明保存原始通信数据，并强化电气隔离、抗过载冲击和高低温可靠性，供飞行/运输过程复盘、试验留痕和质量追溯"
+        ],
+        [
+          "IR200-C",
+          "研发中，后续面向 CAN / CANFD 总线旁路记录",
+          "目标是保存时间戳、报文 ID、DLC、数据字段、通道信息和异常状态，具体以正式发布为准"
+        ]
+      ]
+    },
+    "specifications": {
+      "headers": [
+        "参数",
+        "IR200-M",
+        "IR200-D",
+        "IR200-H"
+      ],
+      "rows": [
+        [
+          "产品定位",
+          "{{ models.m.positioning }}",
+          "{{ models.d.positioning }}",
+          "{{ models.h.positioning }}"
+        ],
+        [
+          "主要接口",
+          "{{ models.m.interfaces }}",
+          "{{ models.d.interfaces }}",
+          "{{ models.h.interfaces }}"
+        ],
+        [
+          "最高速率",
+          "{{ models.m.max_speed }}",
+          "{{ models.d.max_speed }}",
+          "{{ models.h.max_speed }}"
+        ],
+        [
+          "以太网",
+          "{{ models.m.ethernet }}",
+          "{{ models.d.ethernet }}",
+          "{{ models.h.ethernet }}"
+        ],
+        [
+          "存储",
+          "{{ models.m.storage }}",
+          "{{ models.d.storage }}",
+          "{{ models.h.storage }}"
+        ],
+        [
+          "供电",
+          "{{ models.m.power }}",
+          "{{ models.d.power }}",
+          "{{ models.h.power }}"
+        ],
+        [
+          "功耗",
+          "{{ models.m.consumption }}",
+          "{{ models.d.consumption }}",
+          "{{ models.h.consumption }}"
+        ],
+        [
+          "工作温度",
+          "{{ models.m.temperature }}",
+          "{{ models.d.temperature }}",
+          "{{ models.h.temperature }}"
+        ],
+        [
+          "隔离/防护",
+          "{{ models.m.protection }}",
+          "{{ models.d.protection }}",
+          "{{ models.h.protection }}"
+        ]
+      ]
+    }
+  },
+  "resources": {
+    "downloads": "/downloads/ir200/",
+    "case": "/cases/modbus-data-recorder/"
+  }
+}

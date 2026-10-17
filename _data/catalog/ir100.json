@@ -1,0 +1,42 @@
+{
+  "id": "ir100",
+  "models": {
+    "main": {
+      "name": "IR100",
+      "status": "released",
+      "interfaces": "以太网、RS422/RS485、RS232、TTL",
+      "temperature": "-40℃~85℃",
+      "isolation": "不带电气隔离",
+      "storage": "可拆卸 TF 卡",
+      "retrieval": "以太网 TFTP",
+      "error_rate": "10e-6 级别",
+      "test_volume": "10e6 字节"
+    }
+  },
+  "images": {
+    "hero": {
+      "alt": "IR100工业数据记录仪外观",
+      "src": "https://pic.zlinktek.com/img/2025-11-29-15-43-31.png"
+    },
+    "product-1": {
+      "alt": "IR100连续存储测试示意",
+      "src": "https://pic.zlinktek.com/img/20251122164004.png"
+    },
+    "product-2": {
+      "alt": "IR100上位机数据读取示意",
+      "src": "https://pic.zlinktek.com/img/20251122164027.png"
+    },
+    "product-3": {
+      "alt": "IR100接口示意图",
+      "src": "https://pic.zlinktek.com/img/20251122164052.png"
+    },
+    "product-4": {
+      "alt": "IR100机械尺寸图",
+      "src": "https://pic.zlinktek.com/img/20251122164138.png"
+    }
+  },
+  "resources": {
+    "downloads": "/downloads/ir100/",
+    "case": "/cases/ir-industrial/"
+  }
+}

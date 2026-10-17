@@ -1,0 +1,552 @@
+{
+  "id": "ir200",
+  "title": "IR200 High-Reliability Industrial Data Recorder Series",
+  "subtitle": "Compare IR200 multi-serial, dual-Ethernet, and rugged configurations for industrial fault tracing, unattended recording, PLC data logging, and high-reliability applications.",
+  "description": "A family of industrial recorders for isolated interfaces, multi-channel serial data, Modbus/CSV logging, dual-Ethernet deployment, and rugged mobile platforms.",
+  "notice": "IR200-C is under development and is not a released standard ordering option.",
+  "image_alts": {
+    "hero": "IR200 industrial data recorder series",
+    "product-1": "IR200-M multi-serial data recorder",
+    "product-3": "IR200-D dual-Ethernet data recorder",
+    "product-6": "IR200-H rugged isolated data recorder"
+  },
+  "website": {
+    "title": "IR200 High-Reliability Industrial Data Recorder Series",
+    "excerpt": "A family of industrial recorders for isolated interfaces, multi-channel serial data, Modbus/CSV logging, dual-Ethernet deployment, and rugged mobile platforms.",
+    "description": "Compare IR200 multi-serial, dual-Ethernet, and rugged configurations for industrial fault tracing, unattended recording, PLC data logging, and high-reliability applications.",
+    "layout": "single",
+    "classes": "wide product-page",
+    "lang": "en",
+    "alternate_url": "/products/ir200/",
+    "permalink": "/en/products/ir200/",
+    "toc": false,
+    "sidebar": false,
+    "header": {
+      "teaser": "{{ images.hero.src }}"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "**Keywords:** RS422/RS485 · TCP/UDP/Modbus · Dual Ethernet · TF Card · Isolation · -40°C to +85°C · UAV and Mobile Platforms"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-1",
+      "text": "Product Positioning"
+    },
+    {
+      "type": "paragraph",
+      "text": "The IR200 Series extends general industrial recording for electrically complex sites, long-term unattended deployment, equipment-history capture, and high-reliability mobile applications. Depending on configuration, the platform provides multi-channel serial inputs, Ethernet maintenance, local TF card storage, Modbus acquisition, CSV output, dual-Ethernet topology, and reinforced isolation and environmental protection."
+    },
+    {
+      "type": "paragraph",
+      "text": "The principal configurations are:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**IR200-M:** value-oriented multi-serial and Modbus/CSV configuration",
+        "**IR200-D:** dual-Ethernet configuration for inline deployment and centralized maintenance",
+        "**IR200-H:** rugged high-reliability configuration for UAVs, vehicles, research tests, and mobile platforms",
+        "**IR200-C:** CAN/CAN FD development direction; not currently promoted as a standard production model"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "IR100 remains appropriate for cost-sensitive recording in controlled electrical environments. IR200 is the preferred family when the site is difficult to characterize, equipment is not easy to service, intermittent faults must be reconstructed, or future projects may require stronger protection and more structured data delivery."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-2",
+      "text": "Problems the IR200 Series Addresses"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Surge, ESD, long cables, and complex grounding increase the risk of non-isolated logging equipment",
+        "Intermittent failures cannot be diagnosed from an alarm timestamp alone",
+        "PLCs, controllers, test stands, and production equipment require long historical records",
+        "Multiple recorders need centralized status checks, time synchronization, configuration, and data retrieval",
+        "Existing PLC-to-PC links must remain available while a recorder is added",
+        "Raw data often needs to be delivered as timestamped CSV with engineering names and units"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-3",
+      "text": "Why Choose IR200"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Reduced site risk:** configurations are available for stronger isolation, protection, wide-temperature operation, and unattended use",
+        "**Clear configuration ladder:** choose multi-serial/Modbus, dual-Ethernet, or rugged high-reliability capability according to the project",
+        "**Broader deployment coverage:** one family spans serial recording, PLC data logging, inline networking, and mobile-platform recording",
+        "**Usable data delivery:** preserve raw evidence or output timestamped CSV with project-defined fields and scaling",
+        "**Simpler maintenance:** Ethernet retrieval, configuration files, time synchronization, status queries, and network logs reduce unnecessary disassembly",
+        "**Lower lifecycle cost:** stronger engineering integration can reduce field troubleshooting, return, downtime, and secondary-development costs"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-4",
+      "text": "Configuration Comparison"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Configuration",
+        "Positioning",
+        "Best-Fit Applications",
+        "Key Difference"
+      ],
+      "rows": [
+        [
+          "IR200-M",
+          "Multi-serial / Modbus CSV entry configuration",
+          "Multiple RS422/RS485 channels, PLC history, Modbus TCP acquisition, CSV logging",
+          "Four configurable RS422/RS485 channels up to 10 Mbps, DB9, one 10/100M Ethernet port"
+        ],
+        [
+          "IR200-D",
+          "Dual-Ethernet advanced configuration",
+          "PLC-to-PC inline deployment, network cascading, centralized maintenance, production-line retrieval",
+          "Four configurable RS422/RS485 channels up to 1 Mbps, DB15, two 10/100M Ethernet ports with internal switch"
+        ],
+        [
+          "IR200-H",
+          "Rugged high-reliability configuration",
+          "UAVs, air logistics, vehicles, research tests, and reliable mobile platforms",
+          "Two RS422/RS485 channels up to 10 Mbps, Ethernet, TTL, reinforced isolation and high-G protection"
+        ],
+        [
+          "IR200-C",
+          "CAN/CAN FD development direction",
+          "BMS, vehicle control, robotics, energy storage, and test stands",
+          "Under development; interface parameters, recording format, and delivery schedule require project confirmation"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-5",
+      "text": "Typical Connections and Recorded Output"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Configuration",
+        "Typical Connection",
+        "Recorded Result"
+      ],
+      "rows": [
+        [
+          "IR200-M",
+          "Connect to a PLC as a Modbus TCP master, or attach up to four RS422/RS485 devices",
+          "Transparent raw records or date-organized CSV with timestamps, engineering names, scaled values, states, and alarms"
+        ],
+        [
+          "IR200-D",
+          "Insert between PLC and PC using two Ethernet ports, or connect multiple recorders to one maintenance network",
+          "Existing commissioning link remains available while status, time sync, configuration, and log retrieval are centralized"
+        ],
+        [
+          "IR200-H",
+          "Connect RS422/RS485, Ethernet, or TTL links on a UAV, vehicle, transport platform, or research system",
+          "Transparent communication history with enhanced isolation, environmental reliability, and impact protection"
+        ],
+        [
+          "IR200-C",
+          "Future passive CAN/CAN FD bus recording",
+          "Target content includes timestamp, message ID, DLC, payload, channel, and abnormal-bus status; final scope is not yet released"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-6",
+      "text": "Core Capabilities"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-7",
+      "text": "Isolation and Electrical Protection"
+    },
+    {
+      "type": "paragraph",
+      "text": "IR200-H is the rugged configuration for applications above ordinary industrial requirements but below the mission profile that normally requires JR100. Its architecture isolates the power, enclosure, RS422, Ethernet, and TTL domains and supports approximately 2.5 kV interface isolation. The design uses multi-stage EMI filtering, TVS protection, and reliable J30J connectors."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reference capabilities for the rugged configuration include contact-discharge protection up to 8 kV, impact resistance of at least 100 g, operation from approximately -40°C to +85°C, low-power recording around 0.8 W at 12 VDC, timestamped transparent storage, selectable circular/stop-when-full behavior, and Ethernet export. Exact test conditions and purchased configuration must be confirmed in the applicable specification."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-8",
+      "text": "Multi-Channel Serial Recording"
+    },
+    {
+      "type": "paragraph",
+      "text": "IR200-M and IR200-D each support four user-configurable RS422/RS485 channels. IR200-M supports serial rates up to 10 Mbps and is the stronger fit for high-speed serial or value-oriented multi-device acquisition. IR200-D supports rates up to 1 Mbps and adds two Ethernet ports with an internal switch for more flexible site networking."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-9",
+      "text": "Ethernet Retrieval and Maintenance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Depending on configuration, 10/100M Ethernet can support TCP, UDP, Modbus, TFTP file access, status queries, configuration maintenance, time synchronization, and diagnostic logs. The single-port configuration connects directly to a controller or maintenance network; the dual-port configuration can remain inline between a PLC and PC."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-10",
+      "text": "Modbus TCP and CSV History"
+    },
+    {
+      "type": "paragraph",
+      "text": "IR200-M can periodically read PLC holding registers as a Modbus TCP master. Values such as temperature, pressure, current, operating mode, status words, and alarm bits can be converted into timestamped CSV records. Scaling, data type, byte/word order, field names, and collection period are defined by the project configuration."
+    },
+    {
+      "type": "paragraph",
+      "text": "CSV files can be used directly with Excel, Python, MATLAB, or a database workflow. Data can be exported through a TF card reader or over Ethernet."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-11",
+      "text": "Dual-Ethernet Inline Deployment"
+    },
+    {
+      "type": "paragraph",
+      "text": "IR200-D provides two Ethernet ports and an internal switch. It is useful when the existing PLC-to-PC path must remain unchanged, when adding a separate switch is impractical, or when multiple recorders need a common maintenance network. Its main advantage over IR200-M is network topology and centralized serviceability."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-12",
+      "text": "CAN/CAN FD Development Direction"
+    },
+    {
+      "type": "paragraph",
+      "text": "IR200-C is planned for CAN and CAN FD applications such as BMS, energy storage, motor controllers, vehicles, robots, engineering machinery, and test stands. It is still under development and should not be treated as a standard in-stock product. Projects should first define arbitration/data rates, standard or extended frames, error-frame requirements, DBC interpretation, export format, and delivery expectations."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-13",
+      "text": "Product and Interface Reference"
+    },
+    {
+      "type": "image",
+      "key": "product-1"
+    },
+    {
+      "type": "image",
+      "key": "product-3"
+    },
+    {
+      "type": "image",
+      "key": "product-6"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-14",
+      "text": "Key Specification Comparison"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Parameter",
+        "IR200-M",
+        "IR200-D",
+        "IR200-H"
+      ],
+      "rows": [
+        [
+          "Positioning",
+          "Multi-serial / Modbus CSV",
+          "Dual-Ethernet and centralized maintenance",
+          "Rugged high-reliability"
+        ],
+        [
+          "Main interfaces",
+          "4 configurable RS422/RS485, 1 Ethernet",
+          "4 configurable RS422/RS485, 2 Ethernet",
+          "2 RS422/RS485, 1 Ethernet, 1 TTL"
+        ],
+        [
+          "Maximum serial rate",
+          "Up to 10 Mbps",
+          "Up to 1 Mbps",
+          "Up to 10 Mbps"
+        ],
+        [
+          "Ethernet",
+          "1 × 10/100M; UDP/TCP; project-specific Modbus",
+          "2 × 10/100M; internal switch; UDP/TCP; project-specific Modbus",
+          "1 × 10/100M; TCP/UDP/Modbus"
+        ],
+        [
+          "Storage",
+          "TF card up to 512 GB; card reader or Ethernet export",
+          "TF card up to 512 GB; card reader or Ethernet export",
+          "64 GB default; project expansion to 512 GB or more"
+        ],
+        [
+          "Supply",
+          "DC 5–48 V",
+          "DC 5–48 V",
+          "DC 5–36 V; selection guide commonly specifies DC 9–36 V"
+        ],
+        [
+          "Typical recording power",
+          "Approximately 0.8 W; confirm low-power mode by configuration",
+          "Approximately 0.8 W; confirm low-power mode by configuration",
+          "Approximately 0.8 W at 12 VDC; confirm low-power mode by configuration"
+        ],
+        [
+          "Operating temperature",
+          "Approximately -40°C to +85°C",
+          "Approximately -40°C to +85°C",
+          "Approximately -40°C to +85°C; battery configuration approximately -30°C to +85°C"
+        ],
+        [
+          "Protection",
+          "Industrial wide-temperature design; protection level depends on order",
+          "Industrial wide-temperature design; protection level depends on order",
+          "Approximately 2.5 kV isolation, multi-stage EMI/TVS protection, 8 kV contact discharge, ≥100 g impact"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Values above summarize current Chinese selection information. Final interfaces, limits, test conditions, and included functions must be confirmed against the quotation and configuration-specific specification."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-15",
+      "text": "Typical Solutions"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-16",
+      "text": "IR200-M: PLC / Modbus / CSV"
+    },
+    {
+      "type": "paragraph",
+      "text": "IR200-M is intended for long-term PLC and industrial-equipment history. It can preserve raw serial traffic or periodically acquire Modbus TCP registers and generate CSV files."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "CSV Field",
+        "Example",
+        "Purpose"
+      ],
+      "rows": [
+        [
+          "Timestamp",
+          "2026-07-04 10:30:15",
+          "Align alarms, operating changes, and manual actions"
+        ],
+        [
+          "Engineering value",
+          "Inlet temperature = 23.5°C; compressor current = 6.2 A",
+          "Convert raw registers using type, word order, and scale factor"
+        ],
+        [
+          "State / alarm",
+          "Operating mode = Cooling; alarm word = 0x0004",
+          "Preserve state bits, protection words, fault codes, and production counts"
+        ],
+        [
+          "Archive method",
+          "One CSV file per date",
+          "Direct analysis with Excel, Python, MATLAB, or databases"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-17",
+      "text": "IR200-D: Dual-Ethernet and Centralized Maintenance"
+    },
+    {
+      "type": "paragraph",
+      "text": "IR200-D can place the PLC and PC on its two Ethernet ports, allowing normal commissioning access to continue while the recorder captures and stores required data. Multiple devices can also join one maintenance network for time synchronization, status checks, configuration, and batch retrieval."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-18",
+      "text": "IR200-H: Rugged High-Reliability Recording"
+    },
+    {
+      "type": "paragraph",
+      "text": "IR200-H is intended for UAVs, air logistics, vehicles, research tests, and other mobile platforms with requirements beyond ordinary industrial equipment. Its emphasis is reinforced isolation, low power, wide-temperature operation, impact resistance, reliable connectors, and high-integrity local storage."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-19",
+      "text": "Selection Guidance"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Choose **IR200-M** for multiple RS422/RS485 channels, PLC/Modbus TCP acquisition, and CSV history at a controlled cost",
+        "Choose **IR200-D** when dual-Ethernet inline deployment, network cascading, or centralized maintenance is required",
+        "Choose **IR200-H** when the platform experiences shock, vibration, temperature changes, difficult grounding, or high data value",
+        "Choose [**IR100**](/en/products/ir100/) for a controlled industrial environment where broad interface coverage and cost are the priorities",
+        "Evaluate [**JR100**](/en/products/jr100/) when the mission reaches aerospace-grade high-G recovery and environmental severity",
+        "Treat **IR200-C** as a development project until formal product release"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-20",
+      "text": "Deployment Workflow"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "**Define the source:** serial stream, Ethernet traffic, Modbus registers, or a CAN/CAN FD development requirement",
+        "**Select the configuration:** consider budget, isolation, serial-channel count, dual-Ethernet topology, storage, and installation space",
+        "**Configure recording:** set IP addresses, ports, protocol, baud rate, polling period, CSV fields, and storage behavior",
+        "**Deploy:** record independently to local storage and use indicators/status logs to verify operation",
+        "**Retrieve and analyze:** export through Ethernet or TF card and process with Excel, Python, MATLAB, host software, or protocol tools"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-21",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-22",
+      "text": "How do I choose between IR200-M, IR200-D, and IR200-H?"
+    },
+    {
+      "type": "paragraph",
+      "text": "IR200-M is the value-oriented choice for multiple RS422/RS485 channels, PLC/Modbus TCP, and CSV history. IR200-D adds dual-Ethernet inline deployment and centralized maintenance. IR200-H prioritizes full-domain isolation, impact resistance, wide-temperature operation, and reliable recording on mobile platforms."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-23",
+      "text": "How is IR200 different from IR100?"
+    },
+    {
+      "type": "paragraph",
+      "text": "IR100 is a general industrial recorder with broad interface coverage and lower cost. IR200 provides a stronger path for complex grounding, long cables, structured PLC data, dual-Ethernet networking, environmental protection, and equipment that is difficult to service. If the site risk and future expansion are uncertain, begin the evaluation with IR200."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-24",
+      "text": "Does IR200 support Modbus TCP?"
+    },
+    {
+      "type": "paragraph",
+      "text": "IR200-M can periodically read PLC registers and store them as CSV. IR200-D can support related project configurations while adding dual-Ethernet deployment. Register map, polling period, data type, byte/word order, scaling, and output fields must be defined for the project."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-25",
+      "text": "What is the purpose of dual Ethernet?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The two ports on IR200-D support PLC-to-PC inline installation, network cascading, centralized access to multiple recorders, and retention of an existing commissioning path. This can reduce the need for an additional switch and avoid major network changes."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-26",
+      "text": "Which configuration should be used for CAN FD?"
+    },
+    {
+      "type": "paragraph",
+      "text": "IR200-C remains under development. A CAN/CAN FD project can be evaluated, but baud rate, data-phase rate, frame format, error-frame recording, DBC requirements, export format, and schedule must be confirmed before any delivery commitment."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-27",
+      "text": "Pre-Order Checklist"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Required configuration: multi-serial/Modbus, dual Ethernet, or rugged high-reliability",
+        "Interface type, channel count, baud rate, connector, and cable length",
+        "Raw transparent recording, timestamped CSV, point list, scaling, or protocol interpretation",
+        "PLC IP, port, Unit ID, register addresses, quantity, collection period, type, word order, and scale",
+        "Supply range, grounding, isolation, surge/ESD risk, temperature, installation space, and unattended duration",
+        "Expected daily data volume, retention period, TF card capacity, circular recording, or stop-when-full behavior",
+        "Offline card retrieval, Ethernet download, time synchronization, configuration maintenance, and diagnostic-log needs"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-28",
+      "text": "Service and Resources"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "[Modbus data-logging application example](/en/cases/modbus-data-logging/)",
+        "[IR200 documents and support](/en/downloads/ir200/)",
+        "Project support for interface selection, point lists, CSV formats, dual-Ethernet topology, storage, and customization"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "For configuration review or a quotation, contact [zlinktek@outlook.com](mailto:zlinktek@outlook.com) with the checklist information above."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "marketplace-support",
+      "text": "Service and Support",
+      "channels": [
+        "taobao"
+      ]
+    },
+    {
+      "type": "channel_support",
+      "channels": [
+        "taobao"
+      ]
+    }
+  ]
+}

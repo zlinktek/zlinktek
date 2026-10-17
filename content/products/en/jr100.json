@@ -1,0 +1,221 @@
+{
+  "id": "jr100",
+  "title": "JR100 High-G Data Recorder",
+  "subtitle": "JR100 is engineered for mission-critical recording in high-G, high-vibration, and wide-temperature environments where data must survive the test event.",
+  "description": "An electrically isolated rugged data recorder for aerospace tests, unmanned systems, severe shock, vibration, and temperature extremes.",
+  "notice": "Confirm acceleration, temperature, vibration, and test conditions against the selected specification and test report.",
+  "image_alts": {
+    "hero": "JR100 high-G data recorder"
+  },
+  "website": {
+    "title": "JR100 High-G Data Recorder",
+    "excerpt": "An electrically isolated rugged data recorder for aerospace tests, unmanned systems, severe shock, vibration, and temperature extremes.",
+    "description": "JR100 is engineered for mission-critical recording in high-G, high-vibration, and wide-temperature environments where data must survive the test event.",
+    "layout": "single",
+    "classes": "wide product-page",
+    "lang": "en",
+    "alternate_url": "/products/jr100/",
+    "permalink": "/en/products/jr100/",
+    "toc": false,
+    "sidebar": false,
+    "header": {
+      "teaser": "{{ images.hero.src }}"
+    }
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-1",
+      "text": "Product Positioning"
+    },
+    {
+      "type": "paragraph",
+      "text": "JR100 is designed for **high acceleration, severe shock, vibration, and temperature extremes**. It combines electrically isolated communication interfaces with rugged mechanical protection and local non-volatile storage, making it suitable for aerospace tests, unmanned systems, and other missions where the recorder must preserve critical data through the event."
+    },
+    {
+      "type": "paragraph",
+      "text": "Typical projects include:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Aerospace flight tests and onboard measurement",
+        "UAV, fixed-wing, and rotary-wing flight data recording",
+        "Projectile, ballistic, and high-impact vehicle tests",
+        "Shipborne, vehicle-mounted, and other high-vibration measurement systems",
+        "Mission backup recording where the test cannot be repeated"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-2",
+      "text": "Key Features"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Flexible 10/100 Mbps Ethernet, RS422, and RS485 interface options",
+        "High-speed electrical isolation, with configurations supporting approximately 2 kV isolation",
+        "Energy-absorbing mechanical design and multi-stage protective potting for high-G events",
+        "Engineering for low/high temperature, vibration, and shock environments",
+        "End-to-end acquisition, recording, storage, and export for traceable mission data",
+        "Project-specific evaluation of interfaces, mounting, power, storage, and recovery method"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-3",
+      "text": "Environmental and Reliability Engineering"
+    },
+    {
+      "type": "paragraph",
+      "text": "JR100 configurations are evaluated against the mission profile rather than treated as a single universal specification."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Vibration:** structural and connector reliability can be verified against the specified spectrum and duration",
+        "**Shock:** operating and storage integrity can be assessed under the required high-G pulse",
+        "**Temperature:** startup and continuous operation can be evaluated across the project temperature range",
+        "**Recovery:** mounting direction, protective structure, and data-recovery method are considered together"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Exact acceleration, temperature range, vibration spectrum, pulse duration, and test standard must be confirmed from the selected specification and applicable test report."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-4",
+      "text": "Why Mission Data Requires a Rugged Recorder"
+    },
+    {
+      "type": "paragraph",
+      "text": "In flight and impact tests, the final seconds of data are often the most valuable for root-cause analysis. At the same time, those seconds may expose the recorder to the highest shock, strongest vibration, unstable power, and the greatest risk of connector interruption. JR100 is intended to protect this last segment of evidence and support complete post-test reconstruction."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-5",
+      "text": "Typical Applications"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Flight telemetry backup and onboard black-box recording",
+        "UAV flight-control and payload-data capture",
+        "Projectile and ballistic test recording",
+        "Landing or impact recovery-data verification",
+        "Industrial sensor arrays and scientific experiments in harsh environments",
+        "Communication-fault investigation on ships, wind turbines, elevators, and other high-vibration equipment"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-6",
+      "text": "Project Definition Checklist"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before selection, provide:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Interface types, channel count, and maximum data rate",
+        "Expected recording duration and daily data volume",
+        "Supply voltage, power interruption profile, and startup requirements",
+        "Operating and storage temperature limits",
+        "Shock amplitude, pulse duration, direction, and number of events",
+        "Vibration spectrum and test duration",
+        "Available installation envelope, mounting points, and connector direction",
+        "Recovery method and required data-export interface"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-7",
+      "text": "Series Selection Guidance"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Environment and Requirement",
+        "Recommended Series"
+      ],
+      "rows": [
+        [
+          "Standard industrial environment and value-oriented multi-interface recording",
+          "[IR100](/en/products/ir100/)"
+        ],
+        [
+          "Electrically complex industrial environment requiring stronger protection",
+          "[IR200](/en/products/ir200/)"
+        ],
+        [
+          "Severe high-G, vibration, temperature, and mission-recovery requirements",
+          "**JR100**"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "JR100 should be selected when reliability and environmental survivability take priority over ordinary industrial cost and convenience."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-8",
+      "text": "Support and Resources",
+      "channels": [
+        "website"
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "[Extreme-environment application example](/en/cases/extreme-environments/)",
+        "[JR100 product resources](/en/downloads/jr100/)",
+        "Environmental and interface documentation supplied according to project configuration",
+        "Engineering review for mechanical, electrical, storage, and recovery requirements"
+      ],
+      "channels": [
+        "website"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "For project evaluation, contact [zlinktek@outlook.com](mailto:zlinktek@outlook.com) with the mission profile and interface list.",
+      "channels": [
+        "website"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "marketplace-support",
+      "text": "Service and Support",
+      "channels": [
+        "taobao"
+      ]
+    },
+    {
+      "type": "channel_support",
+      "channels": [
+        "taobao"
+      ]
+    }
+  ]
+}

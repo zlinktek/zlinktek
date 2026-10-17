@@ -1,0 +1,253 @@
+{
+  "id": "ir100",
+  "title": "IR100工业数据记录仪",
+  "subtitle": "多接口工业数据记录，面向工业现场、开发验证与通用测试",
+  "description": "高可靠多功能工业数据记录，RS422/RS485/RS232/TTL/以太网多接口一机搞定，满足绝大多数工业与试验场景",
+  "notice": "IR100 {{ models.main.isolation }}，适合电气环境相对规范的工业现场和实验室。",
+  "website": {
+    "title": "IR100工业数据记录仪",
+    "excerpt": "高可靠多功能工业数据记录，RS422/RS485/RS232/TTL/以太网多接口一机搞定，满足绝大多数工业与试验场景",
+    "layout": "single",
+    "lang": "zh-CN",
+    "alternate_url": "/en/products/ir100/",
+    "classes": "wide product-page",
+    "order": 1,
+    "permalink": "/products/ir100/",
+    "toc": false,
+    "sidebar": false,
+    "header": {
+      "teaser": "{{ images.hero.src }}"
+    }
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-1",
+      "text": "产品定位"
+    },
+    {
+      "type": "paragraph",
+      "text": "IR100 是面向工业及通用测试场景的**工业级数据记录仪**，在保证高可靠性的前提下，提供多接口兼容和宽温运行能力，**满足绝大多数工业场景的数据记录需求**。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适合："
+    },
+    {
+      "type": "list",
+      "items": [
+        "工业现场数据记录与监控",
+        "一般环境下的无人机/小型设备数据采集",
+        "开发验证、小批量试制项目的首选型号"
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "[应用案例](https://zlinktek.com/cases/ir-industrial/)"
+      ],
+      "channels": [
+        "website"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-2",
+      "text": "核心特点"
+    },
+    {
+      "type": "list",
+      "items": [
+        "多接口兼容：{{ models.main.interfaces }} 一机搞定",
+        "工业级宽温：{{ models.main.temperature }} 宽温运行，满足大部分工业现场环境",
+        "多系统兼容：文件系统支持 Windows / Linux / macOS 等主流系统",
+        "支持 TFTP：通过{{ models.main.retrieval }} 进行数据读取与管理",
+        "{{ models.main.storage }}：支持现场快速更换与数据转存",
+        "误码率典型可达：{{ models.main.error_rate }}（典型工况下）"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "注意：IR100 **{{ models.main.isolation }}**，适合电气环境相对规范的工业现场和实验室应用。"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-3",
+      "text": "全能接口，多协议兼容"
+    },
+    {
+      "type": "list",
+      "items": [
+        "支持 RS422/RS485/RS232/TTL/以太网等常用接口",
+        "大多数工业控制器、传感器、现场总线设备可直接接入",
+        "在不增加额外转接设备的前提下，实现多通道数据统一记录"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-4",
+      "text": "可靠性架构设计"
+    },
+    {
+      "type": "list",
+      "items": [
+        "数据存储与逻辑处理解耦，记录仪专注“透明存储”，上位机负责业务逻辑",
+        "接口侧提供数据校验机制，提升整体数据可靠性",
+        "采用工业级器件与抗干扰设计，适应 7×24 小时连续运行"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-5",
+      "text": "性能表现示例"
+    },
+    {
+      "type": "list",
+      "items": [
+        "在串口“打满”场景下，连续存储超过 {{ models.main.test_volume }}数据，经实际测试无丢包记录"
+      ]
+    },
+    {
+      "type": "image",
+      "key": "product-1"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-6",
+      "text": "智能数据读取"
+    },
+    {
+      "type": "list",
+      "items": [
+        "支持{{ models.main.retrieval }} 数据读取，提供配套客户端软件",
+        "支持在存储过程中进行数据读取，支持实时数据监控与分析",
+        "方便接入现有 SCADA / 上位机系统或自研分析软件"
+      ]
+    },
+    {
+      "type": "image",
+      "key": "product-2"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-7",
+      "text": "易用性与运维友好"
+    },
+    {
+      "type": "list",
+      "items": [
+        "采用简洁的参数配置文件，非专业人员也可完成基本配置",
+        "可拆卸式 TF 存储卡设计，便于试验现场快速更换与离线分析",
+        "提供完整用户手册与配置示例，工程师可远程协助调试"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-8",
+      "text": "接口示意与机械尺寸"
+    },
+    {
+      "type": "image",
+      "key": "product-3"
+    },
+    {
+      "type": "image",
+      "key": "product-4"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-9",
+      "text": "与其他型号的选型关系"
+    },
+    {
+      "type": "list",
+      "items": [
+        "若需要 **电气隔离**：可优先考虑 **IR200 / JR100**",
+        "若有 **数据加密与自毁需求**：请选择 **CR100**",
+        "若应用于 **航天、无人机等极端环境（高过载、高振动、高低温）**：建议选用 **JR100**"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "建议：若当前项目为一般工业环境、成本敏感且无隔离/极端环境要求，IR100 通常是首选配置。"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-10",
+      "text": "售后与技术支持"
+    },
+    {
+      "type": "list",
+      "items": [
+        "提供完整技术文档与接口说明",
+        "工程师可提供远程技术支持与选型建议",
+        "支持基于 IR100 平台的定制开发"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-11",
+      "text": "资料下载",
+      "channels": [
+        "website"
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "[产品资料下载](https://zlinktek.com/downloads/ir100/)"
+      ],
+      "channels": [
+        "website"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "section-12",
+      "text": "订购与联系信息",
+      "channels": [
+        "website"
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "淘宝：[点击订购](https://item.taobao.com/item.htm?abbucket=5&id=919268151405)",
+        "京东：[点击订购](https://item.jd.com/10197678141396.html)",
+        "对公付款账户：深圳智联电能科技有限公司",
+        "联系邮箱：zlinktek@outlook.com",
+        "联系方式：13032953404（仅微信）"
+      ],
+      "channels": [
+        "website"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "marketplace-support",
+      "text": "服务支持",
+      "channels": [
+        "taobao"
+      ]
+    },
+    {
+      "type": "channel_support",
+      "channels": [
+        "taobao"
+      ]
+    }
+  ]
+}

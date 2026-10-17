@@ -1,0 +1,61 @@
+name: Build and deploy website
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v6
+      - name: Generate product pages
+        run: |
+          python3 scripts/generate-products.py all
+          python3 scripts/generate-products.py all --check
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Build Jekyll website
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Verify generated product was published
+        run: |
+          test -s _site/products/ir200/index.html
+          test -s _site/products/ir100/index.html
+          test -s _site/products/jr100/index.html
+          test -s _site/en/products/ir100/index.html
+          test -s _site/en/products/ir200/index.html
+          test -s _site/en/products/jr100/index.html
+          test ! -d _site/exports
+          test ! -d _site/content
+          test ! -d _site/templates
+          test ! -d _site/scripts
+      - name: Upload website artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./_site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4

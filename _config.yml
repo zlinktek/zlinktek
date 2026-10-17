@@ -135,6 +135,16 @@ include:
   - .htaccess
   - _pages
 exclude:
+  - .tools
+  - content
+  - templates
+  - scripts
+  - exports
+  - generate-products.bat
+  - preview-local.bat
+  - preview-local.ps1
+  - PRODUCT-CONTENT.md
+  - How-to-use.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
