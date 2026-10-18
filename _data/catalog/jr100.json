@@ -4,19 +4,43 @@
     "main": {
       "name": "JR100",
       "status": "released",
-      "interfaces": "以太网（10/100M）、RS-422/RS-485",
-      "isolation": "2kV 电气隔离",
-      "protection": "溃缩吸能结构+ 多级缓冲灌封工艺"
+      "serial_baud": "9600bps–8Mbps",
+      "ethernet_rate": "10/100M",
+      "supply": "DC 12–28V",
+      "power_after_startup": "1.5W",
+      "shock_overload": "6000g",
+      "operating_temperature": "−40～+85℃"
     }
   },
   "images": {
     "hero": {
-      "alt": "JR100抗高过载数据记录仪外观",
-      "src": "https://pic.zlinktek.com/img/2025-11-29-13-44-16.png"
+      "alt": "JR100 数据记录仪实物图（含尺寸标注）",
+      "src": "https://img.alicdn.com/imgextra/i3/2216870724589/O1CN01FSjczVXqfFH4UCo9_!!2216870724589.png"
     }
   },
   "resources": {
     "downloads": "/downloads/jr100/",
     "case": "/cases/jr-extreme-env/"
+  },
+  "source_document": {
+    "title": "JR-100 高过载记录存储器使用说明手册",
+    "version": "V2.3",
+    "sections": [
+      "一、接口介绍",
+      "二、通信协议",
+      "三、数据记录",
+      "四、数据读取与监控",
+      "常见问题"
+    ],
+    "note": "接口、记录模式及操作依据 V2.3 使用手册；接口表列明 12V～28V 隔离供电，正文以 28V 为例，上电后功耗约 1.5W。环境能力与飞行应用经验由产品方补充确认，见 manufacturer_confirmation。"
+  },
+  "manufacturer_confirmation": {
+    "source": "产品方在本次产品描述修订中确认",
+    "shock_overload": "6000g",
+    "operating_temperature": "−40～+85℃ 稳定工作",
+    "vibration": "具备飞行振动适应能力",
+    "experience": "团队具备丰富经验，JR100 已在多次飞行试验中成功完成数据记录任务。",
+    "scope": "未提供具体振动谱、冲击脉宽、试验次数或认证标准，不作延伸声明。",
+    "reliability_process": "产品方确认：针对落地冲击等严苛场景，对系统架构、器件选型、结构、软件可靠性、针对性测试验证流程及实际飞行验证实施全流程优化。"
   }
 }

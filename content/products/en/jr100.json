@@ -1,16 +1,16 @@
 {
   "id": "jr100",
-  "title": "JR100 High-G Data Recorder",
-  "subtitle": "JR100 is engineered for mission-critical recording in high-G, high-vibration, and wide-temperature environments where data must survive the test event.",
-  "description": "An electrically isolated rugged data recorder for aerospace tests, unmanned systems, severe shock, vibration, and temperature extremes.",
-  "notice": "Confirm acceleration, temperature, vibration, and test conditions against the selected specification and test report.",
+  "title": "JR100 High-G Recovery Data Recorder",
+  "subtitle": "Designed for demanding aircraft and UAV environments",
+  "description": "JR100 is designed for demanding aircraft and UAV applications, with {{ models.main.shock_overload }} shock resistance, flight-vibration tolerance and stable operation across {{ models.main.operating_temperature }}. Backed by extensive engineering experience, it has successfully completed data-recording tasks in multiple flight tests, preserving data for post-recovery review and analysis.",
+  "notice": "",
   "image_alts": {
     "hero": "JR100 high-G data recorder"
   },
   "website": {
-    "title": "JR100 High-G Data Recorder",
-    "excerpt": "An electrically isolated rugged data recorder for aerospace tests, unmanned systems, severe shock, vibration, and temperature extremes.",
-    "description": "JR100 is engineered for mission-critical recording in high-G, high-vibration, and wide-temperature environments where data must survive the test event.",
+    "title": "JR100 High-G Recovery Data Recorder",
+    "excerpt": "JR100 is designed for demanding aircraft and UAV applications, with {{ models.main.shock_overload }} shock resistance, flight-vibration tolerance and stable operation across {{ models.main.operating_temperature }}. Backed by extensive engineering experience, it has successfully completed data-recording tasks in multiple flight tests, preserving data for post-recovery review and analysis.",
+    "description": "JR100 is designed for demanding aircraft and UAV applications, with {{ models.main.shock_overload }} shock resistance, flight-vibration tolerance and stable operation across {{ models.main.operating_temperature }}. Backed by extensive engineering experience, it has successfully completed data-recording tasks in multiple flight tests, preserving data for post-recovery review and analysis.",
     "layout": "single",
     "classes": "wide product-page",
     "lang": "en",
@@ -26,180 +26,132 @@
     {
       "type": "heading",
       "level": 2,
-      "id": "section-1",
-      "text": "Product Positioning"
+      "id": "overview",
+      "text": "Product Overview"
     },
     {
       "type": "paragraph",
-      "text": "JR100 is designed for **high acceleration, severe shock, vibration, and temperature extremes**. It combines electrically isolated communication interfaces with rugged mechanical protection and local non-volatile storage, making it suitable for aerospace tests, unmanned systems, and other missions where the recorder must preserve critical data through the event."
+      "text": "JR100 is a high-G recovery data recorder designed specifically for **aircraft, UAVs and other demanding applications**. It provides **{{ models.main.shock_overload }} shock resistance**, tolerance of flight vibration and stable operation across **{{ models.main.operating_temperature }}**."
     },
     {
       "type": "paragraph",
-      "text": "Typical projects include:"
+      "text": "Applications include flight tests, high-G and recovery tests, and integration with telemetry and data-acquisition systems. JR100 stores received serial and Ethernet data locally for retrieval after recovery, supporting test review, operating-history analysis and fault investigation."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "reliability-engineering",
+      "text": "Reliability Engineering and Flight Validation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Landing and recovery can produce severe shock loads, while sustained flight vibration and temperature changes also challenge recording equipment. JR100 treats these conditions as design inputs, carrying reliability requirements through **system architecture, component selection, mechanical optimization, software reliability, application-specific testing and flight validation**."
+    },
+    {
+      "type": "paragraph",
+      "text": "System design addresses task conditions, and component choices reflect environmental and reliability requirements. Targeted mechanical and software optimization is evaluated through testing and actual flight trials. From analysis and engineering design to practical validation, this process strengthens **reliability, robustness and operational stability**."
+    },
+    {
+      "type": "paragraph",
+      "text": "Backed by extensive engineering experience, **JR100 has successfully completed data-recording tasks in multiple flight tests**, supporting post-test review and analysis. This experience also informs airborne system integration, test coordination, post-recovery retrieval and product selection."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "features",
+      "text": "Recording and Customization"
     },
     {
       "type": "list",
-      "ordered": false,
       "items": [
-        "Aerospace flight tests and onboard measurement",
-        "UAV, fixed-wing, and rotary-wing flight data recording",
-        "Projectile, ballistic, and high-impact vehicle tests",
-        "Shipborne, vehicle-mounted, and other high-vibration measurement systems",
-        "Mission backup recording where the test cannot be repeated"
+        "**Multi-source recording:** receive serial and Ethernet data and store test data locally for post-recovery analysis and traceability.",
+        "**Isolated interfaces and low-power design:** isolated RS-422, Ethernet and power connections support integration with airborne telemetry systems.",
+        "**Application-specific software:** software can be adapted to customer requirements for data protocols, recording control, status monitoring and data retrieval to fit the test workflow."
       ]
     },
     {
       "type": "heading",
       "level": 2,
-      "id": "section-2",
-      "text": "Key Features"
-    },
-    {
-      "type": "list",
-      "ordered": false,
-      "items": [
-        "Flexible 10/100 Mbps Ethernet, RS422, and RS485 interface options",
-        "High-speed electrical isolation, with configurations supporting approximately 2 kV isolation",
-        "Energy-absorbing mechanical design and multi-stage protective potting for high-G events",
-        "Engineering for low/high temperature, vibration, and shock environments",
-        "End-to-end acquisition, recording, storage, and export for traceable mission data",
-        "Project-specific evaluation of interfaces, mounting, power, storage, and recovery method"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "id": "section-3",
-      "text": "Environmental and Reliability Engineering"
-    },
-    {
-      "type": "paragraph",
-      "text": "JR100 configurations are evaluated against the mission profile rather than treated as a single universal specification."
-    },
-    {
-      "type": "list",
-      "ordered": false,
-      "items": [
-        "**Vibration:** structural and connector reliability can be verified against the specified spectrum and duration",
-        "**Shock:** operating and storage integrity can be assessed under the required high-G pulse",
-        "**Temperature:** startup and continuous operation can be evaluated across the project temperature range",
-        "**Recovery:** mounting direction, protective structure, and data-recovery method are considered together"
-      ]
-    },
-    {
-      "type": "paragraph",
-      "text": "Exact acceleration, temperature range, vibration spectrum, pulse duration, and test standard must be confirmed from the selected specification and applicable test report."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "id": "section-4",
-      "text": "Why Mission Data Requires a Rugged Recorder"
-    },
-    {
-      "type": "paragraph",
-      "text": "In flight and impact tests, the final seconds of data are often the most valuable for root-cause analysis. At the same time, those seconds may expose the recorder to the highest shock, strongest vibration, unstable power, and the greatest risk of connector interruption. JR100 is intended to protect this last segment of evidence and support complete post-test reconstruction."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "id": "section-5",
-      "text": "Typical Applications"
-    },
-    {
-      "type": "list",
-      "ordered": false,
-      "items": [
-        "Flight telemetry backup and onboard black-box recording",
-        "UAV flight-control and payload-data capture",
-        "Projectile and ballistic test recording",
-        "Landing or impact recovery-data verification",
-        "Industrial sensor arrays and scientific experiments in harsh environments",
-        "Communication-fault investigation on ships, wind turbines, elevators, and other high-vibration equipment"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "id": "section-6",
-      "text": "Project Definition Checklist"
-    },
-    {
-      "type": "paragraph",
-      "text": "Before selection, provide:"
-    },
-    {
-      "type": "list",
-      "ordered": true,
-      "items": [
-        "Interface types, channel count, and maximum data rate",
-        "Expected recording duration and daily data volume",
-        "Supply voltage, power interruption profile, and startup requirements",
-        "Operating and storage temperature limits",
-        "Shock amplitude, pulse duration, direction, and number of events",
-        "Vibration spectrum and test duration",
-        "Available installation envelope, mounting points, and connector direction",
-        "Recovery method and required data-export interface"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "id": "section-7",
-      "text": "Series Selection Guidance"
+      "id": "specifications",
+      "text": "Key Performance Specifications"
     },
     {
       "type": "table",
       "headers": [
-        "Environment and Requirement",
-        "Recommended Series"
+        "Parameter",
+        "Specification"
       ],
       "rows": [
         [
-          "Standard industrial environment and value-oriented multi-interface recording",
-          "[IR100](/en/products/ir100/)"
+          "Shock resistance",
+          "{{ models.main.shock_overload }}"
         ],
         [
-          "Electrically complex industrial environment requiring stronger protection",
-          "[IR200](/en/products/ir200/)"
+          "Operating temperature",
+          "{{ models.main.operating_temperature }}"
         ],
         [
-          "Severe high-G, vibration, temperature, and mission-recovery requirements",
-          "**JR100**"
+          "Vibration tolerance",
+          "Designed for flight vibration; specific conditions confirmed per project"
+        ],
+        [
+          "Serial interface",
+          "One isolated RS-422 port"
+        ],
+        [
+          "Serial rate range",
+          "{{ models.main.serial_baud }}"
+        ],
+        [
+          "Ethernet interface",
+          "One isolated {{ models.main.ethernet_rate }} auto-negotiating port"
+        ],
+        [
+          "Supply range",
+          "{{ models.main.supply }}; isolated"
+        ],
+        [
+          "Power reference",
+          "Approximately {{ models.main.power_after_startup }} after startup; confirm for the project configuration"
         ]
       ]
     },
     {
       "type": "paragraph",
-      "text": "JR100 should be selected when reliability and environmental survivability take priority over ordinary industrial cost and convenience."
+      "text": "These parameters describe environmental capabilities and interface performance. Ethernet interface rate is not a sustained storage or export rate. Recording performance depends on the data load and delivered configuration."
     },
     {
       "type": "heading",
       "level": 2,
-      "id": "section-8",
-      "text": "Support and Resources",
+      "id": "selection",
+      "text": "Customization and Project Integration"
+    },
+    {
+      "type": "paragraph",
+      "text": "Software can be customized for customer requirements, including protocol adaptation, recording control, status monitoring, file management and data retrieval. Communication formats, feedback behavior and operating workflows are agreed per project rather than fixed by a particular software version."
+    },
+    {
+      "type": "paragraph",
+      "text": "Provide shock conditions, vibration spectrum, installation requirements, data rates and recording duration to confirm storage capacity, software requirements and the delivered configuration. Shock pulse duration, direction and other environmental conditions can be clarified during project integration."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "resources",
+      "text": "Resources and Support",
       "channels": [
         "website"
       ]
     },
     {
       "type": "list",
-      "ordered": false,
-      "items": [
-        "[Extreme-environment application example](/en/cases/extreme-environments/)",
-        "[JR100 product resources](/en/downloads/jr100/)",
-        "Environmental and interface documentation supplied according to project configuration",
-        "Engineering review for mechanical, electrical, storage, and recovery requirements"
+      "channels": [
+        "website"
       ],
-      "channels": [
-        "website"
-      ]
-    },
-    {
-      "type": "paragraph",
-      "text": "For project evaluation, contact [zlinktek@outlook.com](mailto:zlinktek@outlook.com) with the mission profile and interface list.",
-      "channels": [
-        "website"
+      "items": [
+        "[Product resources](/en/downloads/jr100/)",
+        "[Extreme-environment application example](/en/cases/extreme-environments/)",
+        "Contact [engineering support](mailto:zlinktek@outlook.com) for the user manual, mechanical files and selection assistance."
       ]
     },
     {
