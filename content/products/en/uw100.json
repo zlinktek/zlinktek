@@ -1,0 +1,228 @@
+{
+  "id": "uw100",
+  "brand": "ZLINKTEK UWB WIRELESS COMMUNICATION",
+  "title": "UW100 UWB Wireless Transmission Module",
+  "subtitle": "Reliable short-range connections for complex metallic environments",
+  "description": "Designed for industrial equipment, rotating components and enclosed compartments, UW100 combines UWB communication, application-specific electromagnetic simulation, circuit design and reliable communication software to support short-range wireless data links.",
+  "notice": "Up to 1Mbps; rate definition to be confirmed. Latency below 1ms; measurement scope to be confirmed.",
+  "website": {
+    "title": "UW100 UWB Wireless Transmission Module",
+    "layout": "single",
+    "lang": "en",
+    "alternate_url": "/products/uw100/",
+    "permalink": "/en/products/uw100/",
+    "classes": "wide product-page",
+    "order": 8,
+    "toc": false,
+    "sidebar": false,
+    "excerpt": "Designed for industrial equipment, rotating components and enclosed compartments, UW100 combines UWB communication, application-specific electromagnetic simulation, circuit design and reliable communication software to support short-range wireless data links."
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "overview",
+      "text": "Product Overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "UW100 is a **short-range UWB wireless transmission module for reliable communication in complex metallic environments**. It targets industrial equipment, rotating components and enclosed compartments where signal wiring is difficult."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reflections and multipath in metallic structures can create frequency-selective fading, disrupting some narrowband links. UW100 combines the characteristics of wideband UWB signals with application-specific system design to reduce the impact of these channel conditions."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "reliability",
+      "text": "Design and Validation for Complex Channels"
+    },
+    {
+      "type": "paragraph",
+      "text": "Application-specific electromagnetic simulations evaluate the effects of metallic structures, obstructions and multipath. Targeted circuit design and reliable communication software are combined with multiple practical experiments to improve link reliability and stability in the intended environment."
+    },
+    {
+      "type": "paragraph",
+      "text": "Suitability depends on compartment geometry, antenna placement and installation. Communication within a compartment and transmission through a metal wall are different conditions; validation in a target scenario does not establish operation through arbitrary metal shielding."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "applications",
+      "text": "Typical Applications"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Rotating components:** data exchange between rotating and stationary equipment where signal wiring is inconvenient.",
+        "**Enclosed compartments:** short-range links between internal devices to simplify wiring.",
+        "**Metallic equipment structures:** local spaces with strong reflections and multipath, evaluated against installation conditions.",
+        "**Industrial retrofits and temporary tests:** flexible connections where adding cables is difficult."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "specifications",
+      "text": "Key Performance Specifications"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Parameter",
+        "Specification"
+      ],
+      "rows": [
+        [
+          "Wireless technology",
+          "UWB"
+        ],
+        [
+          "External interfaces",
+          "{{ parameters.interfaces }}"
+        ],
+        [
+          "Rate",
+          "Up to {{ parameters.rate }}; serial rate versus effective wireless throughput to be confirmed"
+        ],
+        [
+          "Distance",
+          "Up to {{ parameters.distance }}; environment and test conditions to be confirmed"
+        ],
+        [
+          "Latency",
+          "{{ parameters.latency }}; module-to-module versus end-to-end including serial I/O to be confirmed"
+        ],
+        [
+          "Supply",
+          "Up to {{ parameters.supply_max }}; minimum operating voltage to be confirmed"
+        ],
+        [
+          "Power consumption",
+          "{{ parameters.power }}"
+        ],
+        [
+          "Operating temperature",
+          "{{ parameters.temperature }}"
+        ],
+        [
+          "Dimensions",
+          "{{ parameters.dimensions }} (housing; excluding connector and mounting ears)"
+        ],
+        [
+          "Data interface protocol",
+          "Transparent transmission"
+        ],
+        [
+          "Extended capabilities",
+          "Ranging and positioning; configuration and accuracy confirmed per project"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Distance, rate and latency depend on metallic structures, obstructions, antenna placement and data load. The stated limits are not a promise of simultaneous performance in every environment."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "product-details",
+      "text": "Product Details"
+    },
+    {
+      "type": "image",
+      "key": "top-view"
+    },
+    {
+      "type": "image",
+      "key": "connector-view"
+    },
+    {
+      "type": "image",
+      "key": "antenna-view"
+    },
+    {
+      "type": "image",
+      "key": "side-view"
+    },
+    {
+      "type": "image",
+      "key": "right-view"
+    },
+    {
+      "type": "image",
+      "key": "bottom-view"
+    },
+    {
+      "type": "image",
+      "key": "antenna-perspective"
+    },
+    {
+      "type": "image",
+      "key": "side-perspective"
+    },
+    {
+      "type": "image",
+      "key": "rear-perspective"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "customization",
+      "text": "Interfaces and Customization"
+    },
+    {
+      "type": "paragraph",
+      "text": "RS-422 / RS-485 interfaces provide transparent data transmission. Software can be customized for customer protocols and communication workflows. Ranging and positioning are extended capabilities, with implementation and performance confirmed per project."
+    },
+    {
+      "type": "paragraph",
+      "text": "Provide interface details, data load, communication distance, enclosure geometry, rotation and mounting conditions, and supply requirements for application evaluation."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "support",
+      "text": "Selection Support",
+      "channels": [
+        "website"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Contact [engineering support](mailto:zlinktek@outlook.com) with your environment and transmission requirements.",
+      "channels": [
+        "website"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "marketplace-support",
+      "text": "Service and Support",
+      "channels": [
+        "taobao"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Contact marketplace support to confirm the environment, interfaces, supply, rate and latency definitions, and any ranging, positioning or software customization requirements.",
+      "channels": [
+        "taobao"
+      ]
+    }
+  ],
+  "image_alts": {
+    "hero": "UW100 Connector-side perspective (concept rendering)",
+    "top-view": "UW100 Top view and central mounting tabs (concept rendering)",
+    "connector-view": "UW100 J30J female connector end view (concept rendering)",
+    "antenna-view": "UW100 PTFE antenna end view (concept rendering)",
+    "side-view": "UW100 Left side view (concept rendering)",
+    "right-view": "UW100 Right side view (concept rendering)",
+    "bottom-view": "UW100 Bottom view (concept rendering)",
+    "antenna-perspective": "UW100 Antenna-side perspective (concept rendering)",
+    "side-perspective": "UW100 Low-angle connector-side perspective (concept rendering)",
+    "rear-perspective": "UW100 Low-angle antenna-side perspective (concept rendering)"
+  }
+}

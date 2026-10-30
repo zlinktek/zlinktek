@@ -144,3 +144,13 @@ IR100/JR100 本次保留原站 `pic.zlinktek.com` 的真实图片地址，尚未
 4. 检查图片、型号状态、关键参数及平台客服说明后分别发布。
 
 没有自动登录、修改商品或发布官网。生成器只写入本地生成文件。
+
+
+## UW100 无线传输模块
+
+- 中文内容：`content/products/uw100.json`；英文内容：`content/products/en/uw100.json`。
+- 共用参数：`_data/catalog/uw100.json` 中的 `parameters`；速率及延迟口径在产品页标注待确认。
+- 图片统一维护在 `_data/catalog/uw100.json` 的 `images` 中：`hero` 为指定主图，其余九张为结构细节图。中英文官网与千牛共用淘宝图床地址，不把产品图片存入仓库。
+- `brand` 可指定产品类别文字；不填写时保留原记录仪标识。
+- 执行 `python scripts/generate-products.py all` 可同时生成所有产品；单独生成使用 `uw100` 或 `en/uw100`。
+- 官网地址：`/products/uw100/` 和 `/en/products/uw100/`；千牛输出：`exports/taobao/uw100.html`，预览：`exports/taobao/uw100-preview.html`（英文位于对应 `en/` 子目录）。

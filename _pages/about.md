@@ -59,8 +59,18 @@ sidebar: false
     line-height: 1.7;
   }
 
+  .about-contact-card__qrcodes {
+    display: flex;
+    flex: 0 1 400px;
+    gap: 1rem;
+    justify-content: center;
+    min-width: 0;
+  }
+
   .about-contact-card__media {
-    flex: 0 0 240px;
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: 190px;
     margin: 0;
     text-align: center;
   }
@@ -68,9 +78,8 @@ sidebar: false
   .about-contact-card__media img {
     display: block;
     width: 100%;
-    max-width: 240px;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
+    max-width: 190px;
+    height: auto;
     margin: 0 auto 0.75rem;
     border-radius: 16px;
     box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
@@ -92,9 +101,9 @@ sidebar: false
       font-size: 1.4rem;
     }
 
-    .about-contact-card__media,
-    .about-contact-card__media img {
-      max-width: 220px;
+    .about-contact-card__qrcodes {
+      flex: 0 1 auto;
+      width: 100%;
     }
   }
 </style>
@@ -104,14 +113,19 @@ sidebar: false
     <h2 class="about-contact-card__title">欢迎沟通产品选型、项目合作与技术交流</h2>
     <p class="about-contact-card__desc">如需了解产品参数、应用场景、定制能力或项目支持，可通过微信或邮箱与我们取得联系。</p>
     <ul class="about-contact-card__list">
-      <li><strong>微信：</strong>13032953404(张工)</li>
       <li><strong>邮箱：</strong><a href="mailto:zlinktek@outlook.com">zlinktek@outlook.com</a></li>
     </ul>
   </div>
-  <figure class="about-contact-card__media">
-    <img src="https://pic.zlinktek.com/img/wechat_zlinktek.jpg" alt="深圳智联电能科技有限公司微信联系方式二维码" loading="lazy">
-    <figcaption>微信扫码添加联系方式</figcaption>
-  </figure>
+  <div class="about-contact-card__qrcodes">
+    <figure class="about-contact-card__media">
+      <img src="https://pic.zlinktek.com/img/wechat_zlinktek.jpg" alt="智联电能官方微信二维码" loading="lazy">
+      <figcaption>官方微信</figcaption>
+    </figure>
+    <figure class="about-contact-card__media">
+      <img src="https://pic.zlinktek.com/img/wechat_zhang.jpg" alt="工程师微信二维码" loading="lazy">
+      <figcaption>工程师微信</figcaption>
+    </figure>
+  </div>
 </div>
 
 **深圳智联电能科技有限公司**专注于工业及航天领域的智能通信与数据记录设备研发。团队核心成员来自国际知名企业及国内知名航天院所，并与多所高校保持长期技术合作，拥有超过 10 年的工程实践与行业经验。

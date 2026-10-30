@@ -1,0 +1,216 @@
+{
+  "id": "uw100",
+  "brand": "ZLINKTEK UWB WIRELESS COMMUNICATION",
+  "title": "UW100 UWB 无线传输模块",
+  "subtitle": "面向复杂金属环境，为不便布线的设备提供可靠连接",
+  "description": "UW100 面向工业设备、旋转部件及封闭舱体等短距离无线通信需求，结合 UWB 通信、特定环境电磁仿真、针对性电路设计与高可靠通信软件，为不便布线的设备提供无线数据连接。",
+  "notice": "速率最高 1Mbps，具体口径待确认；延迟低于 1ms，测量口径待确认。",
+  "website": {
+    "title": "UW100 UWB 无线传输模块",
+    "layout": "single",
+    "lang": "zh-CN",
+    "alternate_url": "/en/products/uw100/",
+    "permalink": "/products/uw100/",
+    "classes": "wide product-page",
+    "order": 8,
+    "toc": false,
+    "sidebar": false,
+    "excerpt": "UW100 面向工业设备、旋转部件及封闭舱体等短距离无线通信需求，结合 UWB 通信、特定环境电磁仿真、针对性电路设计与高可靠通信软件，为不便布线的设备提供无线数据连接。"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "overview",
+      "text": "产品概述"
+    },
+    {
+      "type": "paragraph",
+      "text": "UW100 是面向**复杂金属环境的短距离高可靠 UWB 无线传输模块**，适用于工业设备内部、旋转部件和封闭舱体等不便布置信号线的场景，为设备间的数据交换提供无线连接。"
+    },
+    {
+      "type": "paragraph",
+      "text": "金属结构中的反射与多径传播可能形成频率选择性衰落，使部分窄带链路出现通信不稳定甚至中断。UW100 利用 UWB 宽带信号的特性，并结合面向目标环境的系统设计，降低此类信道条件对数据传输的影响。"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "reliability",
+      "text": "针对复杂信道的设计与验证"
+    },
+    {
+      "type": "paragraph",
+      "text": "我们针对特定应用环境开展电磁仿真，分析金属结构、遮挡与多径对通信链路的影响，并进行针对性电路设计和高可靠通信软件设计。通过多次实际实验验证，将电磁分析、硬件设计与软件优化结合，提升目标场景下的通信可靠性与稳定性。"
+    },
+    {
+      "type": "paragraph",
+      "text": "适用性需结合舱体结构、天线布置与设备安装位置评估。舱内通信与穿透金属舱壁通信属于不同条件，不能将目标场景的验证结果直接推及任意金属屏蔽环境。"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "applications",
+      "text": "典型应用"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**旋转部件**：用于旋转部件与固定端之间的数据交换，减少信号线布设需求。",
+        "**封闭舱体**：面向舱内设备间的短距离连接，简化内部布线。",
+        "**复杂金属结构设备**：适用于反射、多径明显的局部空间，结合安装环境评估链路。",
+        "**工业改造与临时测试**：用于加装线缆困难、需要灵活部署的设备连接。"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "specifications",
+      "text": "主要性能指标"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "项目",
+        "性能参数"
+      ],
+      "rows": [
+        [
+          "通信技术",
+          "UWB"
+        ],
+        [
+          "外部接口",
+          "{{ parameters.interfaces }}"
+        ],
+        [
+          "速率",
+          "最高 {{ parameters.rate }}；串口速率或无线有效吞吐率的具体口径待确认"
+        ],
+        [
+          "通信距离",
+          "最远 {{ parameters.distance }}；适用环境与测试条件待确认"
+        ],
+        [
+          "通信延迟",
+          "{{ parameters.latency }}；模块间或含串口收发的端到端测量口径待确认"
+        ],
+        [
+          "供电",
+          "最高支持 {{ parameters.supply_max }}；最低工作电压待确认"
+        ],
+        [
+          "功耗",
+          "{{ parameters.power }}"
+        ],
+        [
+          "工作温度",
+          "{{ parameters.temperature }}"
+        ],
+        [
+          "尺寸",
+          "{{ parameters.dimensions }}（壳体尺寸，不含接口及安装耳突出部分）"
+        ],
+        [
+          "数据接口协议",
+          "透明传输"
+        ],
+        [
+          "扩展能力",
+          "支持测距、定位；配置及精度按项目确认"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "距离、速率与延迟需结合金属结构、遮挡、天线位置和数据负载确认，不表示各项极限指标可在所有环境下同时达到。"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "product-details",
+      "text": "产品细节"
+    },
+    {
+      "type": "image",
+      "key": "top-view"
+    },
+    {
+      "type": "image",
+      "key": "connector-view"
+    },
+    {
+      "type": "image",
+      "key": "antenna-view"
+    },
+    {
+      "type": "image",
+      "key": "side-view"
+    },
+    {
+      "type": "image",
+      "key": "right-view"
+    },
+    {
+      "type": "image",
+      "key": "bottom-view"
+    },
+    {
+      "type": "image",
+      "key": "antenna-perspective"
+    },
+    {
+      "type": "image",
+      "key": "side-perspective"
+    },
+    {
+      "type": "image",
+      "key": "rear-perspective"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "customization",
+      "text": "接口与定制支持"
+    },
+    {
+      "type": "paragraph",
+      "text": "通过 RS-422 / RS-485 接入设备，采用透传方式传输数据。软件可根据客户需求定制，配合项目协议及通信流程；测距与定位作为扩展能力，具体实现和性能按项目确认。"
+    },
+    {
+      "type": "paragraph",
+      "text": "选型时请提供设备接口、数据量、通信距离、舱体或金属结构、旋转与安装条件，以及供电要求。我们结合实际环境评估通信方案与交付配置。"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "support",
+      "text": "选型支持",
+      "channels": [
+        "website"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "[联系工程师](mailto:zlinktek@outlook.com)，说明应用环境与传输需求，获取选型和集成建议。",
+      "channels": [
+        "website"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "marketplace-support",
+      "text": "服务支持",
+      "channels": [
+        "taobao"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "请通过平台客服确认应用环境、接口、供电、速率与延迟口径，以及测距定位和软件定制需求。",
+      "channels": [
+        "taobao"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "uw100",
+  "models": {},
+  "images": {
+    "hero": {
+      "alt": "UW100 接口侧立体图（结构渲染示意）",
+      "src": "https://img.alicdn.com/imgextra/i2/2216870724589/O1CN01HLTtXSjCY7I3FPii_!!2216870724589.png"
+    },
+    "top-view": {
+      "alt": "UW100 俯视图与中部安装耳布局（结构渲染示意）",
+      "src": "https://img.alicdn.com/imgextra/i2/2216870724589/O1CN01t0Q1y4PeYxE3FPii_!!2216870724589.png"
+    },
+    "connector-view": {
+      "alt": "UW100 J30J 母口端视图（结构渲染示意）",
+      "src": "https://img.alicdn.com/imgextra/i2/2216870724589/O1CN01anusmJXeNZL3FPii_!!2216870724589.png"
+    },
+    "antenna-view": {
+      "alt": "UW100 PTFE 天线端视图（结构渲染示意）",
+      "src": "https://img.alicdn.com/imgextra/i3/2216870724589/O1CN01v7KG77CjcuE3FPii_!!2216870724589.png"
+    },
+    "side-view": {
+      "alt": "UW100 左侧视图（结构渲染示意）",
+      "src": "https://img.alicdn.com/imgextra/i3/2216870724589/O1CN01QmJ5FNyeHNE3FPii_!!2216870724589.png"
+    },
+    "right-view": {
+      "alt": "UW100 右侧视图（结构渲染示意）",
+      "src": "https://img.alicdn.com/imgextra/i1/2216870724589/O1CN011HlBin5d6IK3FPii_!!2216870724589.png"
+    },
+    "bottom-view": {
+      "alt": "UW100 底部视图（结构渲染示意）",
+      "src": "https://img.alicdn.com/imgextra/i1/2216870724589/O1CN01eStkpdn047D3FPii_!!2216870724589.png"
+    },
+    "antenna-perspective": {
+      "alt": "UW100 天线侧立体图（结构渲染示意）",
+      "src": "https://img.alicdn.com/imgextra/i3/2216870724589/O1CN01vBoUNz3fT0L3FPii_!!2216870724589.png"
+    },
+    "side-perspective": {
+      "alt": "UW100 接口侧低角度立体图（结构渲染示意）",
+      "src": "https://img.alicdn.com/imgextra/i3/2216870724589/O1CN01VS0CklSal5E3FPii_!!2216870724589.png"
+    },
+    "rear-perspective": {
+      "alt": "UW100 天线侧低角度立体图（结构渲染示意）",
+      "src": "https://img.alicdn.com/imgextra/i2/2216870724589/O1CN01rwrgzTdhqPL3FPii_!!2216870724589.png"
+    }
+  },
+  "parameters": {
+    "interfaces": "RS-422 / RS-485",
+    "rate": "1Mbps",
+    "distance": "10m",
+    "latency": "<1ms",
+    "supply_max": "40V",
+    "power": "<1W",
+    "temperature": "−40～+85℃",
+    "dimensions": "50 × 30 × 15mm"
+  },
+  "source_notes": {
+    "source": "产品方提供的 UW100 产品规划信息",
+    "pending": [
+      "1Mbps 为串口速率还是无线有效吞吐率待确认",
+      "小于 1ms 的延迟测量端点、数据长度与负载条件待确认",
+      "最低工作电压待确认",
+      "距离、速率及延迟的测试环境与同时达成条件待确认",
+      "测距定位的配置及精度待项目确认"
+    ],
+    "images": "产品方提供的淘宝图床地址；一张主图及九张结构细节图，官网与千牛、中英文共用。图片为结构渲染示意。"
+  }
+}

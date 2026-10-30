@@ -10,15 +10,19 @@ theme-gem-*.txt
 __pycache__/
 *.pyc
 
-# Product pages and previews are rebuilt from content + catalog + templates.
-/_products/ir200.md
-/_products/ir100.md
-/_products/jr100.md
-/_products/en/ir100.md
-/_products/en/ir200.md
-/_products/en/jr100.md
+# Generated product pages are rebuilt from content + catalog + templates.
+/_products/*.md
+/_products/en/*.md
+# These existing product pages are maintained by hand, not generated.
+!/_products/cr100.md
+!/_products/ir200c.md
+!/_products/ir200d.md
+!/_products/ir200m.md
 /_includes/generated/
 /exports/
 /.tools/
 /.bundle/
 /vendor/
+
+# CAD projects are maintained in the external product directory.
+/_engineering/

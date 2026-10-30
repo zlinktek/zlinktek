@@ -87,13 +87,16 @@ def render_blocks(blocks, catalog, channel, language='zh-CN'):
             if not headers or any(len(row) != len(headers) for row in rows):
                 raise ValueError('Invalid table column count')
             if channel == 'taobao':
-                # Stacked cards remain readable in mobile editors without media queries.
+                # Compact rows for every table, including multi-field model cards.
                 if kind == 'catalog_table' and block['key'] == 'specifications':
                     cards = [(headers[col], [(row[0], row[col]) for row in rows]) for col in range(1, len(headers))]
                 else:
                     cards = [(row[0], list(zip(headers[1:], row[1:]))) for row in rows]
                 for name, fields in cards:
-                    output.append('<div style="background:white;border:1px solid #cbd5e1;border-radius:8px;padding:18px;margin:14px 0;overflow-wrap:anywhere;"><div style="color:#0369a1;font-size:21px;font-weight:800;margin-bottom:12px;">' + text(name) + '</div>' + ''.join('<p style="margin:10px 0;color:#334155;"><strong style="color:#0f172a;">' + text(label) + '：</strong>' + inline(value, channel) + '</p>' for label, value in fields) + '</div>')
+                    if len(fields) == 1:
+                        output.append('<div style="background:white;border:1px solid #cbd5e1;padding:7px 12px;margin:0 0 3px;font-size:16px;line-height:1.45;color:#334155;overflow-wrap:anywhere;"><strong style="color:#0369a1;">' + inline(name, channel) + '：</strong>' + inline(fields[0][1], channel) + '</div>')
+                        continue
+                    output.append('<div style="background:white;border:1px solid #cbd5e1;margin:0 0 6px;font-size:16px;line-height:1.45;color:#334155;overflow-wrap:anywhere;"><div style="background:#f1f5f9;color:#0369a1;font-size:16px;font-weight:700;line-height:1.45;padding:7px 12px;margin:0;">' + inline(name, channel) + '</div>' + ''.join('<p style="margin:0;padding:7px 12px;border-top:1px solid #e2e8f0;font-size:16px;line-height:1.45;color:#334155;"><strong style="color:#0f172a;">' + inline(label, channel) + '：</strong>' + inline(value, channel) + '</p>' for label, value in fields) + '</div>')
                 continue
             head = ''.join('<th scope="col" style="padding:12px 10px;border:1px solid #cbd5e1;background:#0f172a;color:white;text-align:left;">' + inline(cell, channel) + '</th>' for cell in headers)
             body = ''.join('<tr>' + ''.join('<td style="padding:12px 10px;border:1px solid #cbd5e1;vertical-align:top;">' + inline(cell, channel) + '</td>' for cell in row) + '</tr>' for row in rows)
@@ -140,7 +143,7 @@ def generate(product, check=False):
     for channel in ('website', 'taobao'):
         body = render_blocks(content['blocks'], catalog, channel, language)
         notices = content.get('notice', '') if language == 'en' else content.get('notice') or '；'.join(m['name'] + '：' + m['notice'] for m in catalog['models'].values() if m['status'] == 'development')
-        values = dict(title=text(content['title']), subtitle=text(content['subtitle']), description=text(content['description']), notice=text(notices), hero=image(catalog['images']['hero'], channel), body=body)
+        values = dict(brand=text(content.get('brand', 'ZLINKTEK INDUSTRIAL DATA LOGGER')), title=text(content['title']), subtitle=text(content['subtitle']), description=text(content['description']), notice=text(notices), hero=image(catalog['images']['hero'], channel) if catalog['images'].get('hero') else '', body=body)
         template = Template((ROOT / 'templates/products' / (channel + '.html')).read_text(encoding='utf-8'))
         rendered = template.substitute(values)
         if channel == 'website':
