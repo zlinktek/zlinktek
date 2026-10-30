@@ -114,6 +114,7 @@ sidebar: false
     <p class="about-contact-card__desc">如需了解产品参数、应用场景、定制能力或项目支持，可通过微信或邮箱与我们取得联系。</p>
     <ul class="about-contact-card__list">
       <li><strong>邮箱：</strong><a href="mailto:zlinktek@outlook.com">zlinktek@outlook.com</a></li>
+      <li><strong>官方淘宝店铺：</strong><a href="https://shop455778268.taobao.com/">进入店铺</a></li>
     </ul>
   </div>
   <div class="about-contact-card__qrcodes">
