@@ -60,4 +60,4 @@ toc: false
 
 提供 **接口类型与数量、数据速率、记录时长和使用环境**，我们协助确定系列和配置。软件、外形、存储及数据保密等特殊需求可按项目评估定制。
 
-[联系工程师，获取选型建议](mailto:zlinktek@outlook.com){: .btn .btn--primary}
+[联系工程师，获取选型建议]({{ '/about/' | relative_url }}){: .btn .btn--primary}

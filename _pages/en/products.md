@@ -61,4 +61,4 @@ See product details for interface rate ranges and configurations. Ethernet link 
 
 Share your **interface types and channel counts, data rates, recording duration and operating environment**. We can help select the series and configuration, and assess customization for software, form factor, storage and data protection.
 
-[Contact Engineering for Selection Support](mailto:zlinktek@outlook.com){: .btn .btn--primary}
+[Contact Engineering for Selection Support]({{ '/en/about/' | relative_url }}){: .btn .btn--primary}

@@ -6,7 +6,7 @@ main:
     url: /cases/
   - title: "下载中心"
     url: /downloads/
-  - title: "关于我们"
+  - title: "联系我们"
     url: /about/
   - title: "EN"
     language_switch: true
