@@ -14,5 +14,5 @@ sidebar: false
 | --- | --- | --- |
 | Unified Data Recorder Client | Device status, data download, configuration, time synchronization, and firmware upgrade | [View and Download](/en/downloads/client/) |
 | IR100 Data Recorder Resources | Datasheet, user manual, mechanical drawings, and utilities | [View Resources](/en/downloads/ir100/) |
-| IR200 Data Recorder Resources | Datasheets and user manuals for IR200M, IR200D, and IR200I | [View Resources](/en/downloads/ir200/) |
+| IR200 Data Recorder Resources | Datasheets and user manuals for IR200-M, IR200-D, and IR200-I | [View Resources](/en/downloads/ir200/) |
 | JR100 Data Recorder Resources | Datasheet, user manual, and project-specific documents | [View Resources](/en/downloads/jr100/) |

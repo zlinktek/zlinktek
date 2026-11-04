@@ -34,7 +34,7 @@
       "summary": "{{ models.d.interfaces }}；{{ models.d.max_speed }}；{{ models.d.ethernet }}；{{ models.d.storage }}；{{ models.d.protection }}"
     },
     "h": {
-      "name": "IR200-H",
+      "name": "IR200-I",
       "status": "released",
       "positioning": "高可靠隔离旗舰款",
       "interfaces": "2 路 RS422/RS485，1 路以太网，1 路 TTL",
@@ -60,11 +60,11 @@
   },
   "images": {
     "hero": {
-      "alt": "IR200系列数据记录仪合照",
-      "src": "https://img.alicdn.com/imgextra/i4/2216870724589/O1CN01H0IF4r1jlohFyJLiu_!!2216870724589.png"
+      "alt": "IR200-M、IR200-D 和 IR200-I 数据记录仪合照",
+      "src": "https://img.alicdn.com/imgextra/i3/2216870724589/O1CN01I2osqBJSMNG2XrKe_!!2216870724589.png"
     },
     "product-1": {
-      "alt": "IR200M多串口数据记录仪侧面",
+      "alt": "IR200-M多串口数据记录仪侧面",
       "src": "https://img.alicdn.com/imgextra/i1/2216870724589/O1CN01uarzXc1jlohGKic3h_!!2216870724589.png"
     },
     "product-2": {
@@ -72,11 +72,11 @@
       "src": "https://img.alicdn.com/imgextra/i2/2216870724589/O1CN019jOmVY1jlohBqhIRe_!!2216870724589.png"
     },
     "product-3": {
-      "alt": "IR200D双网口数据记录仪正面",
+      "alt": "IR200-D双网口数据记录仪正面",
       "src": "https://img.alicdn.com/imgextra/i3/2216870724589/O1CN017bWdiG1jlohGFpPcb_!!2216870724589.png"
     },
     "product-4": {
-      "alt": "IR200D双网口数据记录仪接口特写",
+      "alt": "IR200-D双网口数据记录仪接口特写",
       "src": "https://img.alicdn.com/imgextra/i2/2216870724589/O1CN01u8T9cG1jlohGFA78x_!!2216870724589.png"
     },
     "product-5": {
@@ -84,15 +84,11 @@
       "src": "https://img.alicdn.com/imgextra/i4/2216870724589/O1CN016M0uxD1jlohGJ1uiM_!!2216870724589.png"
     },
     "product-6": {
-      "alt": "IR200隔离增强款正面",
-      "src": "https://img.alicdn.com/imgextra/i4/2216870724589/O1CN01KKvU1c1jlohGLv88S_!!2216870724589.png"
-    },
-    "product-7": {
-      "alt": "IR200隔离增强款接口特写",
-      "src": "https://img.alicdn.com/imgextra/i3/2216870724589/O1CN01A8FFcS1jlohGKLB69_!!2216870724589.png"
+      "alt": "IR200-I 高可靠数据记录仪外观",
+      "src": "https://img.alicdn.com/imgextra/i2/2216870724589/O1CN01MSYxEoiWOoK2XrKe_!!2216870724589.png"
     },
     "product-8": {
-      "alt": "IR200-H 外形尺寸图",
+      "alt": "IR200-I 外形尺寸图",
       "src": "https://img.alicdn.com/imgextra/i3/2216870724589/O1CN01LklbeA1jlohG2yyAr_!!2216870724589.png"
     }
   },
@@ -149,7 +145,7 @@
           "保留原有调试链路，同时支持集中状态查看、时间同步、日志下载和配置维护"
         ],
         [
-          "IR200-H",
+          "IR200-I",
           "接入 RS422/RS485、以太网或 TTL 链路，部署在无人机、航空物流、车辆、科研试验或高可靠移动平台",
           "透明保存原始通信数据，并强化电气隔离、抗过载冲击和高低温可靠性，供飞行/运输过程复盘、试验留痕和质量追溯"
         ],
@@ -165,7 +161,7 @@
         "参数",
         "IR200-M",
         "IR200-D",
-        "IR200-H"
+        "IR200-I"
       ],
       "rows": [
         [

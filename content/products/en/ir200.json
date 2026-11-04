@@ -5,10 +5,10 @@
   "description": "A family of industrial recorders for isolated interfaces, multi-channel serial data, Modbus/CSV logging, dual-Ethernet deployment, and rugged mobile platforms.",
   "notice": "IR200-C is under development and is not a released standard ordering option.",
   "image_alts": {
-    "hero": "IR200 industrial data recorder series",
+    "hero": "IR200-M, IR200-D and IR200-I data recorders",
     "product-1": "IR200-M multi-serial data recorder",
     "product-3": "IR200-D dual-Ethernet data recorder",
-    "product-6": "IR200-H rugged isolated data recorder"
+    "product-6": "IR200-I rugged isolated data recorder"
   },
   "website": {
     "title": "IR200 High-Reliability Industrial Data Recorder Series",
@@ -50,7 +50,7 @@
       "items": [
         "**IR200-M:** value-oriented multi-serial and Modbus/CSV configuration",
         "**IR200-D:** dual-Ethernet configuration for inline deployment and centralized maintenance",
-        "**IR200-H:** rugged high-reliability configuration for UAVs, vehicles, research tests, and mobile platforms",
+        "**IR200-I:** rugged high-reliability configuration for UAVs, vehicles, research tests, and mobile platforms",
         "**IR200-C:** CAN/CAN FD development direction; not currently promoted as a standard production model"
       ]
     },
@@ -122,7 +122,7 @@
           "Four configurable RS422/RS485 channels up to 1 Mbps, DB15, two 10/100M Ethernet ports with internal switch"
         ],
         [
-          "IR200-H",
+          "IR200-I",
           "Rugged high-reliability configuration",
           "UAVs, air logistics, vehicles, research tests, and reliable mobile platforms",
           "Two RS422/RS485 channels up to 10 Mbps, Ethernet, TTL, reinforced isolation and high-G protection"
@@ -160,7 +160,7 @@
           "Existing commissioning link remains available while status, time sync, configuration, and log retrieval are centralized"
         ],
         [
-          "IR200-H",
+          "IR200-I",
           "Connect RS422/RS485, Ethernet, or TTL links on a UAV, vehicle, transport platform, or research system",
           "Transparent communication history with enhanced isolation, environmental reliability, and impact protection"
         ],
@@ -185,7 +185,7 @@
     },
     {
       "type": "paragraph",
-      "text": "IR200-H is the rugged configuration for applications above ordinary industrial requirements but below the mission profile that normally requires JR100. Its architecture isolates the power, enclosure, RS422, Ethernet, and TTL domains and supports approximately 2.5 kV interface isolation. The design uses multi-stage EMI filtering, TVS protection, and reliable J30J connectors."
+      "text": "IR200-I is the rugged configuration for applications above ordinary industrial requirements but below the mission profile that normally requires JR100. Its architecture isolates the power, enclosure, RS422, Ethernet, and TTL domains and supports approximately 2.5 kV interface isolation. The design uses multi-stage EMI filtering, TVS protection, and reliable J30J connectors."
     },
     {
       "type": "paragraph",
@@ -275,7 +275,7 @@
         "Parameter",
         "IR200-M",
         "IR200-D",
-        "IR200-H"
+        "IR200-I"
       ],
       "rows": [
         [
@@ -398,11 +398,11 @@
       "type": "heading",
       "level": 3,
       "id": "section-18",
-      "text": "IR200-H: Rugged High-Reliability Recording"
+      "text": "IR200-I: Rugged High-Reliability Recording"
     },
     {
       "type": "paragraph",
-      "text": "IR200-H is intended for UAVs, air logistics, vehicles, research tests, and other mobile platforms with requirements beyond ordinary industrial equipment. Its emphasis is reinforced isolation, low power, wide-temperature operation, impact resistance, reliable connectors, and high-integrity local storage."
+      "text": "IR200-I is intended for UAVs, air logistics, vehicles, research tests, and other mobile platforms with requirements beyond ordinary industrial equipment. Its emphasis is reinforced isolation, low power, wide-temperature operation, impact resistance, reliable connectors, and high-integrity local storage."
     },
     {
       "type": "heading",
@@ -416,7 +416,7 @@
       "items": [
         "Choose **IR200-M** for multiple RS422/RS485 channels, PLC/Modbus TCP acquisition, and CSV history at a controlled cost",
         "Choose **IR200-D** when dual-Ethernet inline deployment, network cascading, or centralized maintenance is required",
-        "Choose **IR200-H** when the platform experiences shock, vibration, temperature changes, difficult grounding, or high data value",
+        "Choose **IR200-I** when the platform experiences shock, vibration, temperature changes, difficult grounding, or high data value",
         "Choose [**IR100**](/en/products/ir100/) for a controlled industrial environment where broad interface coverage and cost are the priorities",
         "Evaluate [**JR100**](/en/products/jr100/) when the mission reaches aerospace-grade high-G recovery and environmental severity",
         "Treat **IR200-C** as a development project until formal product release"
@@ -449,11 +449,11 @@
       "type": "heading",
       "level": 3,
       "id": "section-22",
-      "text": "How do I choose between IR200-M, IR200-D, and IR200-H?"
+      "text": "How do I choose between IR200-M, IR200-D, and IR200-I?"
     },
     {
       "type": "paragraph",
-      "text": "IR200-M is the value-oriented choice for multiple RS422/RS485 channels, PLC/Modbus TCP, and CSV history. IR200-D adds dual-Ethernet inline deployment and centralized maintenance. IR200-H prioritizes full-domain isolation, impact resistance, wide-temperature operation, and reliable recording on mobile platforms."
+      "text": "IR200-M is the value-oriented choice for multiple RS422/RS485 channels, PLC/Modbus TCP, and CSV history. IR200-D adds dual-Ethernet inline deployment and centralized maintenance. IR200-I prioritizes full-domain isolation, impact resistance, wide-temperature operation, and reliable recording on mobile platforms."
     },
     {
       "type": "heading",
